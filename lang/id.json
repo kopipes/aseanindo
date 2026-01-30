@@ -1,0 +1,7 @@
+{
+     "agent_not_available" : "The agent is not available now. Please try again later.",
+     "balance_not_enough" : "Your company balance is not enough",
+     "customer_busy" : "The Customer already contacted with another agent",
+
+     "rating_success" : "The assessment was successfully given, Thank you for giving an assessment"
+}

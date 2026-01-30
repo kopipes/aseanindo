@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap"); /* new font family */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: #606060;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.bg-ig {
+    background: linear-gradient(to left, #ffb02e, #fb774b);
+}
+.chat-message-content {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.pre-wrap-content {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+.highlight {
+    background-color: yellow;
+}
+
+.bg-mobile {
+    background-position: 80% center;
+}
+
+/* blog */
+.markdown-content h1 {
+    @apply text-4xl font-bold text-indigo-900;
+}
+.markdown-content h2 {
+    @apply text-3xl font-semibold text-indigo-800;
+}
+.markdown-content h3 {
+    @apply text-xl font-semibold text-indigo-800;
+}
+.markdown-content a {
+    @apply text-blue-600 underline hover:text-blue-800;
+}
+.markdown-content p {
+    @apply text-gray-700 leading-relaxed;
+}
+
+.markdown-content p {
+    margin-bottom: 1.25rem; /* Menambahkan spasi antar paragraf */
+    line-height: 1.7; /* Menambah jarak antar baris untuk kenyamanan membaca */
+}
+
+/* Heading styling khusus untuk markdown */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+    margin-top: 2rem; /* Spasi sebelum heading */
+    margin-bottom: 1.5rem; /* Spasi setelah heading */
+}
+
+/* Styling untuk list numbering */
+.markdown-content ol {
+    margin-left: 1.5rem;
+    list-style-type: decimal;
+}
+
+/* Styling untuk item dalam list (numbered atau unordered) */
+.markdown-content li {
+    margin-bottom: 0.75rem; /* Spasi antar item */
+}
+.markdown-content img {
+    @apply w-full h-auto rounded-lg mt-6 mb-6; /* Responsif dan rapi */
+}
+
+/* Tambahan styling untuk gambar */
+.markdown-content figure {
+    @apply flex justify-center; /* Jika menggunakan tag <figure> */
+}
+.markdown-content strong {
+    @apply font-bold text-blue-800; /* Atau custom styling */
+}
+
+.markdown-content b {
+    @apply font-bold text-blue-800; /* Jika tag <b> digunakan */
+}
+.markdown-content ul {
+    list-style-type: disc; /* Bullets untuk level pertama */
+    margin-left: 1.5rem; /* Indentasi untuk level pertama */
+}
+
+.markdown-content ul ul {
+    list-style-type: circle; /* Bullets untuk level kedua */
+    margin-left: 1.5rem; /* Indentasi tambahan untuk level kedua */
+}
+
+.markdown-content li {
+    margin-bottom: 0.5rem; /* Jarak antar item di list */
+}
+
+.markdown-content li strong {
+    @apply font-bold text-black; /* Bold dan warna untuk teks di dalam list */
+}
+.product-schedule-date .flatpickr-calendar.inline {
+  /* width: 100%; */
+  box-shadow: none !important;
+}
+
+.chat-message-content a{
+    color: #3943B7 !important;
+}

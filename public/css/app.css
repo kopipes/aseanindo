@@ -1,0 +1,88 @@
+@layer base {
+     @font-face {
+          font-family: 'Krub-Bold';
+          src: url(../fonts/Krub/Krub-Bold.ttf);
+     }
+
+     @font-face {
+          font-family: 'Krub-Light';
+          src: url(../fonts/Krub/Krub-Light.ttf);
+     }
+
+     @font-face {
+          font-family: 'Krub-Medium';
+          src: url(../fonts/Krub/Krub-Medium.ttf);
+     }
+
+     @font-face {
+          font-family: 'Krub-Regular';
+          src: url(../fonts/Krub/Krub-Regular.ttf);
+     }
+
+     @font-face {
+          font-family: 'Krub-SemiBold';
+          src: url(../fonts/Krub/Krub-SemiBold.ttf);
+     }
+
+     input[type="number"]::-webkit-inner-spin-button,
+     input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+     }
+}
+.faq-content strong{
+     font-family: 'Krub-Bold' !important;
+}
+.select-input {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     background-image: url('../img/select-dropdown.svg');
+     background-repeat: no-repeat;
+     background-position-y: 16px;
+     background-position-x: calc(100% - 17px);
+     background-size: 10px;
+}
+
+input[type="checkbox"] {
+     height: 0px;
+     width: 17px;
+     position: relative;
+     border: none !important;
+     box-shadow: none !important;
+}
+
+input[type="checkbox"]::after {
+     content: ' ';
+     border-radius: 5px;
+     width: 17px;
+     height: 17px;
+     position: absolute;
+     border: 1.7px solid #e5e7eb;
+     background: #fff;
+}
+
+input[type="checkbox"]:checked::after {
+     background: #FEB500;
+     border-color: #FEB500;
+     background-position: center;
+     background-size: cover;
+     background-image: url('../img/checkbox.svg');
+}
+
+
+.radio-custom {
+     appearance: none;
+     border: 1.7px solid #e5e7eb;
+     background-color: #fff;
+     border-radius: 50%;
+     height: 17px;
+     width: 17px;
+}
+
+input[type=radio]:checked {
+     background-image: url('../img/radio_cheked.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border: none;
+}

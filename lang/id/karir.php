@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'page_title' => 'Karir',
+    'header_title' => 'Lowongan Yang Tersedia',
+    'job_title' => 'Marketing Perusahaan',
+    'jobdesc' => [
+        'title' => 'Deskripsi Pekerjaan',
+        'desc' => [
+            'Mengenalkan produk yang dimiliki perusahaan kepada pelanggan',
+            'Menjualkan produk perusahaan kepada konsumen sehingga perusahaan mendapatkan keuntungan dari setiap produk yang terjual',
+            'Mencari informasi dan menyampaikannya kepada perusahaan mengenai kelebihan dan kekurangan dari sebuah produk yang dijual',
+            'Menjalin hubungan baik antara perusahaan dengan konsumen',
+            'Menjadi penghubung antara perusahaan dengan lingkungan sekitar',
+        ],
+    ],
+    'req' => [
+        'title' => 'Persyaratan',
+        'desc' => [
+            'Pria/Wanita',
+            'Minimal Pendidikan D3/S1',
+            'Pengalaman di sales & marketing merupakan nilai plus',
+            'Sangat menyukai target',
+            'Menyukai tantangan dan hal baru',
+            'Mempunyai relasi yang baik & bagus',
+            'Mempunyai motivasi tinggi dan visi yang jelas',
+            'Bisa menganalisa target yang akan diprospek',
+            'Mempunyai jiwa pemimpin dan pantang menyerah',
+        ],
+    ],
+];

@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    /* background-color: #1f2130; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 6%;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0 !important;
+    width: 100%;
+}
+
+.navbar-inverted {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 6%;
+    position: fixed;
+    /* background-color: #5b20fa; */
+    background-color: #ffffff;
+    top: 0 !important;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%), 0 6px 20px 0 rgb(0 0 0 / 0%);
+}
+
+.logo img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.btn-forbusines {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 100px;
+    padding: 12px 24px;
+    color: #3943B7;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-forbusines:hover {
+    background-color: #5b20fa;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 100px;
+    padding: 12px 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    width: 100%;
+    height: 900px;
+    background-image: url(./images/bannerlogo.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner .content {
+    padding: 24px;
+}
+
+.banner-content {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p:nth-child(2) {
+    width: 80%;
+}
+
+.banner-content .content {
+    /* background-color: aqua;
+  width: 50%;
+  height: 800px; */
+}
+
+.banner h1 {
+    font-size: 62px;
+    margin-bottom: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.banner h1 span {
+    color: #fac02d;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 12px;
+}
+
+.link-download {
+    padding-top: 16px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.link-download .google-play img {
+    width: 200px;
+    margin-right: 16px;
+}
+
+.link-download .app-store img {
+    width: 180px;
+}
+
+.banner-logo {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    width: 500px;
+    z-index: 0;
+}
+
+.fitur {
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.mockup img {
+    /* position: relative; */
+    width: 360px;
+    padding-right: 72px;
+}
+
+.detail-f {
+    width: 30%;
+}
+
+.detail-f .title {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.detail-f .content-fitur {
+    margin-bottom: 12px;
+}
+
+.detail-f .title h1 {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.detail-f .title p:nth-child(1) {
+    background-color: #fac02d;
+    padding: 8px 20px;
+    border-radius: 100px;
+}
+
+.detail-f .title p:nth-child(3) {
+    font-weight: 900;
+}
+
+.title-content-fitur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-content-fitur:hover {
+    display: flex;
+    justify-content: space-between;
+    color: #fac02d;
+}
+
+.imageFeature {
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.content-fitur {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 14px;
+}
+
+.content-fitur:hover {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+.title-content-fitur {
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.open i.fa-angle-right {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.desc-fitur {
+    display: none;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
+}
+
+.desc-fitur p {
+    display: block;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.footer {
+    margin-top: 210px;
+    background-color: #272d3c;
+    color: #dcd6d6;
+    padding: 32px;
+}
+
+.footer .content-footer {
+    display: flex;
+}
+
+.footer .content-footer .about-yelow-f {
+    width: 25%;
+    padding: 0px 45px;
+}
+.footer .content-footer .about-yelow-f img {
+    width: 160px;
+    padding-bottom: 12px;
+}
+
+.footer .content-footer .about-yelow-f p {
+    font-weight: 100;
+}
+.footer .content-footer .info-footer {
+    width: 25%;
+    padding: 0px 45px;
+}
+.footer .content-footer .info-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.footer .content-footer .info-footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.footer .content-footer .info-footer p:last-child {
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding-top: 12px;
+}
+.footer .content-footer .support-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.footer .content-footer .support-footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.footer .content-footer .support-footer p:hover {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #fac02d;
+    cursor: pointer;
+}
+
+.footer .content-footer .support-footer {
+    width: 25%;
+    padding: 0px 45px;
+}
+
+.footer .content-footer .download-footer {
+    width: 25%;
+    padding: 0px 45px;
+}
+.footer .content-footer .download-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.footer .content-footer .download-footer .link-download-foot {
+    margin-bottom: 12px;
+}
+.footer .content-footer .download-footer .link-download-foot a {
+    text-decoration: none;
+}
+.footer .content-footer .download-footer .link-download-foot .google-play img {
+    width: 150px;
+    margin-right: 12px;
+}
+.footer .content-footer .download-footer .link-download-foot .app-store img {
+    width: 135px;
+}

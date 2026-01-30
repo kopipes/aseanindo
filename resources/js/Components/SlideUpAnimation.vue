@@ -1,0 +1,15 @@
+<template>
+    <div x-data="{show:false}" x-init="setTimeout(()=>{show = true},200)">
+        <div
+            x-transition:enter="transform transition ease-in-out duration-500 sm:duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transform transition ease-in-out duration-500 sm:duration-400"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            x-show="show"
+        >
+            <slot />
+        </div>
+    </div>
+</template>

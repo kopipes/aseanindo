@@ -1,0 +1,1770 @@
+@media only screen and (min-width: 1920px) {
+    @font-face {
+        font-family: "RadaTebel";
+        src: url("/assets/poppins/Poppins-Medium.ttf");
+        /* font-weight: normal; */
+    }
+    @font-face {
+        font-family: "TebelBanget";
+        src: url("/assets/poppins/Poppins-ExtraBold.ttf");
+        font-weight: bold;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        transition: all .2s linear;
+    }
+    
+    .navbar {
+        background-color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 16px 70px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        right: 0;
+    }
+    
+    .navbar .logo {
+        width: 100px;
+        margin-right: 24px;
+    }
+    
+    .navbar .logo img {
+        width: 120%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    
+    .navbar .menu {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        -webkit-padding-start: 0;
+        padding-inline-start: 0;
+    }
+    
+    .navbar .menu .dropdown {
+        padding: 4px 12px;
+        color: white;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+        /* font-weight: bold; */
+    }
+    
+    .menu .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: gray;
+        width: fit-content;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        z-index: 1;
+        margin: 3px 0px;
+    }
+    
+    .menu .dropdown-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .menu .dropdown-menu a:hover {
+        background-color: #2d60a6;
+    }
+    
+    .menu .dropdown:hover .fa-caret-down {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    
+    .menu .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .navbar .menu .icon {
+        display: none;
+    }
+    
+    .navbar .menu a {
+        padding: 4px 12px;
+        color: black;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+        /* font-weight: bold; */
+    }
+    
+    .navbar .menu .dropdown-menu a {
+        padding: 4px 12px;
+        color: white;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .navbar .menu a:hover {
+        padding: 4px 12px;
+        color: #3943B7;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+        /* font-weight: bold; */
+    }
+    
+    .menu-bar {
+        display: none;
+    }
+    
+    .navbar .icon-bar {
+        display: none;
+    }
+    
+    .navbar .auth {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .navbar .auth .btn-auth {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .lang-eng #bendera {
+        content: url("/assets/images/english.png");
+    }
+    
+    .navbar .auth .btn-auth .btn-daftar {
+        background-color: #3943B7;
+        color: black;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 16px;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        /* font-weight: bold; */
+    }
+    
+    .navbar .auth .btn-auth .btn-masuk {
+        background-color: #3943B7;
+        color: black;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 16px;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        /* font-weight: bold; */
+    }
+    
+    .navbar .auth .btn-auth .btn-lang {
+        background-color: #3943B7;
+        padding: 2px 2px;
+        border-radius: 100px;
+        border: none;
+    }
+    
+    .navbar .auth .btn-auth .btn-lang img {
+        width: 26px;
+        height: 26px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+    }
+    
+    .navbar .auth .btn-auth .btn-color {
+        background-color: #2d60a6;
+        color: #2d60a6;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 16px;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        color: white;
+    }
+    
+    .navbar .auth .btn-auth .btn-outline {
+        background-color: #2d60a6;
+        color: #2d60a6;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        margin-right: 16px;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        color: white;
+    }
+    
+    .navbar .auth .btn-auth .btn-outline-lang {
+        background-color: #2d60a6;
+        padding: 2px 2px;
+        border-radius: 100px;
+        border: none;
+    }
+    
+    .inverted {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 16px 70px;
+        position: fixed;
+        background-color: #ffffff;
+        top: 0 !important;
+        width: 100%;
+        z-index: 1;
+        height: fit-content;
+    }
+    
+    .navbar.inverted .menu a {
+        padding: 4px 12px;
+        color: black;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .navbar.inverted .menu .dropdown-menu a {
+        padding: 4px 12px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .navbar.inverted .menu a:hover {
+        padding: 4px 12px;
+        color: #3943B7;
+        font-size: 18px;
+        font-family: "RadaTebel";
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .section-user {
+        background-color: #3943B7;
+        height: fit-content;
+        width: 100%;
+        position: relative;
+        background-image: url(./images/bgheader.png);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    
+    .section-user .col-user {
+        display: flex;
+    }
+    
+    .section-user .col-user .left-column {
+        flex: 60%;
+        /* padding: 10px; */
+    }
+    
+    .section-user .col-user .left-column .text-box-user {
+        padding: 20% 15%;
+        height: fit-content;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(1) {
+        font-size: 64px;
+        margin: 0 auto;
+        /* padding-bottom: 20px; */
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(2) {
+        font-size: 64px;
+        margin: 0 auto;
+        /* padding-bottom: 20px; */
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(3) {
+        font-size: 64px;
+        margin: 0 auto;
+        /* padding-bottom: 20px; */
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(4) {
+        font-size: 77px;
+        width: 80%;
+        margin: 40px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(4) span {
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-user .col-user .left-column .img-box-user {
+        /* padding: 0px 150px; */
+        position: absolute;
+        left: 150px;
+        bottom: -7px;
+        width: 40%;
+    }
+    
+    .section-user .col-user .left-column .img-box-user img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section-user .col-user .right-column {
+        flex: 40%;
+    }
+    
+    .section-user .col-user .right-column .app-box-user {
+        padding-top: 120%;
+        padding-left: 120px;
+        padding-bottom: 40px;
+        /* position: absolute; */
+        /* left: 220px; */
+        /* bottom: -5px; */
+        /* width: 30%; */
+    }
+    
+    .section-user .col-user .right-column .app-box-user .google-play-user img {
+        width: 200px;
+        margin-right: 16px;
+    }
+    
+    .section-user .col-user .right-column .app-box-user .app-store-user img {
+        width: 180px;
+    }
+
+    .feature-user-mobile {
+        display: none;
+    }
+    
+    .feature-user {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
+        position: relative;
+    }
+    
+    .feature-user .col-feature-odd {
+        display: flex;
+    }
+    
+    .feature-user .col-feature-odd .left-column-odd {
+        flex: 50%;
+        margin: 80px auto;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd {
+        flex: 50%;
+        margin: 80px auto;
+    }
+    
+    .feature-user .col-feature-odd .left-column-odd .box-image {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .feature-user .col-feature-odd .left-column-odd .box-image img {
+        height: 60%;
+        width: 60%;
+    }
+    
+    .feature-user .col-feature-odd .left-column-odd .box-image .call-back {
+        height: 70%;
+        width: 70%;
+    }
+    
+    .feature-user .col-feature-odd .left-column-odd .box-image .product-info {
+        height: 70%;
+        width: 70%;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 10% 0px 0px 0px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-weight: bold;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc p:nth-child(2) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: 'RadaTebel';
+        /* font-weight: 500; */
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc p:nth-child(3) {
+        font-size: 24px;
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        font-family: "RadaTebel";
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc p:nth-child(4) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        /* font-weight: bold; */
+        color: black;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc p:nth-child(5) {
+        font-size: 16px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding-top: 96px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc-call-back {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 10% 0px 0px 0px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc-call-back h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "Tebelbanget";
+        color: black;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc-call-back h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-call-back
+        p:nth-child(2) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-call-back
+        p:nth-child(3) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-call-back
+        p:nth-child(4) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-call-back
+        p:nth-child(5) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        /* padding-top: 96px; */
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc-product-info {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 10% 0px 0px 0px;
+    }
+    
+    .feature-user .col-feature-odd .right-column-odd .box-desc-product-info h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-product-info
+        h1
+        span {
+            font-family: "TebelBanget";
+            color: #3943B7;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-product-info
+        p:nth-child(2) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-product-info
+        p:nth-child(3) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-product-info
+        p:nth-child(4) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-user
+        .col-feature-odd
+        .right-column-odd
+        .box-desc-product-info
+        p:nth-child(5) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+        /* padding-top: 96px; */
+    }
+    
+    .feature-user .col-feature-even {
+        display: flex;
+        background-color: #e7e7e7;
+    }
+    
+    .feature-user .col-feature-even .left-column-even {
+        flex: 50%;
+        margin: 80px auto;
+    }
+    
+    .feature-user .col-feature-even .right-column-even {
+        flex: 50%;
+        margin: 80px auto;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc {
+        -webkit-box-align: justify;
+        -ms-flex-align: justify;
+        align-items: justify;
+        justify-content: justify;
+        text-align: justify;
+        /* padding-left: 20%; */
+        padding: 10% 0px 0px 20%;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc h1:nth-child(1) {
+        font-size: 64px;
+        /* margin: 0px auto; */
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc h1:nth-child(2) {
+        font-size: 64px;
+        /* margin: 0px auto; */
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc p:nth-child(3) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        /* margin: 0px auto; */
+        /* font-weight: bold; */
+        color: black;
+        /* padding-top: 40px; */
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-user .col-feature-even .left-column-even .box-desc p:nth-child(4) {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        /* margin: 0px auto; */
+        /* font-weight: bold; */
+        color: black;
+        padding: 0px 0px 12px 0px;
+        /* padding: 12px 0px; */
+    }
+    
+    .feature-user .col-feature-even .right-column-even .box-image {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+    }
+    
+    .feature-user .col-feature-even .right-column-even .box-image img {
+        height: 60%;
+        width: 60%;
+    }
+
+    .end-feature-mobile {
+        display: none;
+    }
+    
+    .end-feature {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        padding: 0px 0px 5% 0px;
+    }
+    
+    .end-feature .box-end {
+        display: flex;
+        margin: 0px auto;
+        /* padding: 2% 0px 0px 0px; */
+        padding: 20px 0px;
+        background-color: #e7e7e7;
+        border: none;
+        border-radius: 10px;
+        height: 270px;
+        width: 85%;
+    }
+    
+    .end-feature .box-end .left-column {
+        flex: 50%;
+        position: relative;
+        background-image: url(./images/bgend-user.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        /* background-position: right top; */
+    }
+    
+    .end-feature .box-end .right-column {
+        flex: 50%;
+    }
+    
+    .end-feature .box-end .left-column .box-desc {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 5% 0px 0px 15%;
+    }
+    
+    .end-feature .box-end .left-column .box-desc h1:nth-child(1) {
+        font-size: 52px;
+        font-family: "TebelBanget";
+        margin: 0px auto;
+        color: black;
+    }
+    
+    .end-feature .box-end .left-column .box-desc h1:nth-child(2) {
+        font-size: 52px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .end-feature .box-end .left-column .box-desc h1 span {
+        font-size: 52px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .end-feature .box-end .right-column .box-desc {
+        /* padding: 50px 0px;
+        height: fit-content; */
+    
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 7% 0px 0px 0px;
+    }
+    
+    .end-feature .box-end .right-column .box-desc p {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        margin: 0px auto;
+        /* font-weight: bold; */
+        color: black;
+    }
+    
+    .end-feature .box-end .right-column .box-desc .app-box-end {
+        padding: 12px 0px;
+        height: fit-content;
+    }
+    
+    .end-feature
+        .box-end
+        .right-column
+        .box-desc
+        .app-box-end
+        .google-play-user
+        img {
+        width: 216px;
+        margin-right: 16px;
+    }
+    
+    .end-feature .box-end .right-column .box-desc .app-box-end .app-store-user img {
+        width: 216px;
+    }
+    
+    .section-feature-ba {
+        background: url(./images/bgheader-ba.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 90vh;
+        text-align: center;
+    }
+    
+    .section-feature-ba .title-feature-ba {
+        padding-top: 10rem;
+        max-width:70rem;
+        margin:0 auto;
+    }
+    
+    .section-feature-ba .title-feature-ba h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-feature-ba .btn-feature-ba {
+        margin: 24px auto;
+        text-align: center;
+    }
+    
+    .section-feature-ba .btn-feature-ba .btn-daftar {
+        background-color: #3943B7;
+        color: white;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 16px;
+        font-size: 22px;
+        font-family: "RadaTebel";
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .section-feature-ba .btn-feature-ba .btn-hubungi {
+        background-color: transparent;
+        color: white;
+        text-decoration: none;
+        padding: 5px 24px;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #3943B7;
+        margin-right: 16px;
+        font-size: 22px;
+        font-family: "RadaTebel";
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .section-feature-ba .btn-feature-ba .btn-daftar:hover {
+        transform: scale(1.1);
+    }
+    
+    .section-feature-ba .btn-feature-ba .btn-hubungi:hover {
+        transform: scale(1.1);
+    }
+    
+    .section-feature-ba .image-feature-ba {
+        width: 100%;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .section-feature-ba .image-feature-ba img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin: 0px auto;
+    }
+    
+    .feature-ba {
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
+        position: relative;
+    }
+    
+    .feature-ba .col-feature-odd {
+        margin: 5rem auto;
+        display: flex;
+        background: url(./images/left-bgfitur.png) no-repeat;
+        background-size: 80%;
+        background-position: left;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd {
+        flex: 40%;
+        margin: 5rem auto;
+    }
+    
+    .feature-ba .col-feature-odd .right-column-odd {
+        flex: 60%;
+        margin: 5rem auto;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc {
+        -webkit-box-align: justify;
+        -ms-flex-align: justify;
+        align-items: justify;
+        justify-content: justify;
+        text-align: justify;
+        padding: 5% 0px 0px 40%;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-weight: bold;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc p:nth-child(2) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: 'RadaTebel';
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc p:nth-child(3) {
+        font-size: 24px;
+        margin: 0px auto;
+        color: black;
+        font-family: "RadaTebel";
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc p:nth-child(4) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc p:nth-child(5) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-weight: bold;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo {
+        -webkit-box-align: justify;
+        -ms-flex-align: justify;
+        align-items: justify;
+        justify-content: justify;
+        text-align: justify;
+        padding: 5% 0px 0px 40%;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo h1:nth-child(2) {
+        font-size: 64px;
+        margin: 0px auto;
+        font-weight: bold;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo p:nth-child(3) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: 'RadaTebel';
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo p:nth-child(4) {
+        font-size: 24px;
+        margin: 0px auto;
+        color: black;
+        font-family: "RadaTebel";
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo p:nth-child(5) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-odd .left-column-odd .box-desc-wfo p:nth-child(6) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-odd .right-column-odd .box-image {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+    }
+    
+    .feature-ba .col-feature-odd .right-column-odd .box-image img {
+        height: 70%;
+        width: 70%;
+    }
+    
+    .feature-ba .col-feature-even {
+        margin: 5rem auto;
+        display: flex;
+        background: url(./images/right-bgfitur.png) no-repeat;
+        background-size: 80%;
+        background-position: right;
+    }
+    
+    .feature-ba .col-feature-even .left-column-even {
+        flex: 60%;
+        margin: 5rem auto;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even {
+        flex: 40%;
+        margin: 5rem auto;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc {
+        -webkit-box-align: justify;
+        -ms-flex-align: justify;
+        align-items: justify;
+        justify-content: justify;
+        text-align: justify;
+        padding: 5% 0px 0px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc h1:nth-child(2) {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc p:nth-child(3) {
+        font-size: 24px;
+        margin: 0px auto;
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc p:nth-child(4) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc p:nth-child(5) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking {
+        -webkit-box-align: justify;
+        -ms-flex-align: justify;
+        align-items: justify;
+        justify-content: justify;
+        text-align: justify;
+        padding: 5% 0px 0px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking h1 span {
+        font-family: "TebelBanget";
+        color: #3943B7;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking p:nth-child(2) {
+        font-size: 24px;
+        margin: 0px auto;
+        color: black;
+        padding: 60px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking p:nth-child(3) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking p:nth-child(4) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+        padding: 0px 0px 12px 0px;
+    }
+    
+    .feature-ba .col-feature-even .right-column-even .box-desc-booking p:nth-child(5) {
+        font-size: 24px;
+        margin: 0px auto;
+        font-family: "RadaTebel";
+        color: black;
+    }
+    
+    .feature-ba .col-feature-even .left-column-even .box-image {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .feature-ba .col-feature-even .left-column-even .box-image img {
+        height: 70%;
+        width: 70%;
+    }
+    
+    .end-feature-ba {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        padding: 0px 0px 5% 0px;
+    }
+    
+    .end-feature-ba .box-end {
+        margin: 0px auto;
+        padding: 3rem 0px;
+        background-color: #3943B7;
+        /* background-image: linear-gradient(180deg, #2d60a6ed , #3943B7); */
+        border: none;
+        border-radius: 10px;
+        height: fit-content;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .end-feature-ba .box-end h1 {
+        font-size: 52px;
+        font-family: "RadaTebel";
+        color: white;
+    }
+    
+    .end-feature-ba .box-end .btn-coba {
+        background-color: #2d60a6;
+        color: white;
+        text-decoration: none;
+        padding: 8px 24px;
+        border-radius: 10px;
+        border: none;
+        font-size: 22px;
+        font-family: "RadaTebel";
+        display: inline-block;
+        cursor: pointer;
+        margin: 20px auto;
+    }
+    
+    .end-feature-ba .box-end .btn-coba:hover {
+        transform: scale(1.1);
+    }
+    
+    .end-feature-ba .box-text {
+        margin: 0px auto;
+        padding: 3rem 0px;
+        height: fit-content;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .end-feature-ba .box-text h1 {
+        font-size: 52px;
+        font-family: "RadaTebel";
+        color: black;
+    }
+    
+    .end-feature-ba .box-text .image-klien {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    
+    .end-feature-ba .box-text .image-klien img {
+        width: 15%;
+        margin: 0px 3rem;
+    }
+    
+    .section-pricing {
+        background: url(./images/bgheader-pricing.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 40vh;
+        text-align: center;
+    }
+    
+    .section-pricing .title-pricing {
+        padding-top: 10rem;
+        max-width:70rem;
+        margin:0 auto;
+    }
+    
+    .section-pricing .title-pricing h1 {
+        font-size: 64px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-paket {
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
+        position: relative;
+    }
+    
+    .section-paket .title-paket {
+        padding-top: 3rem;
+        width: 30%;
+        max-width:70rem;
+        margin:0 auto;
+        text-align: center;
+    }
+
+    .section-dukungan {
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .section-dukungan .title-dukungan {
+        padding-top: 3rem;
+        width: 50%;
+        max-width:70rem;
+        margin:0 auto;
+        text-align: center;
+    }
+    
+    .section-paket .title-paket h1 {
+        font-size: 42px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+
+    .section-dukungan .title-dukungan h1 {
+        font-size: 42px;
+        margin: 0px auto;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-paket .box-paket {
+        width: 70%;
+        height: fit-content;
+        margin: 2rem auto;
+    }
+    
+    .section-paket .box-paket .list-paket-trial {
+        width: 90%;
+        background: white;
+        margin: 3rem auto;
+        border-radius: 20px;
+        border-style: solid;
+        border-color:#dadada;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .section-paket .box-paket .list-paket-trial:hover {
+        width: 90%;
+        background: rgba(255, 182, 0, 0.1);
+        /* margin: 3rem auto; */
+        border-radius: 20px;
+        border-style: solid;
+        border-color:#dadada;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: scale(1.1);
+    }
+    
+    .mengecil {
+        transform: scale(0.9);
+    }
+    
+    .section-paket .box-paket .list-paket-trial h1:nth-child(1) {
+        color: #ffb600;
+        font-size: 22px;
+        font-family: "TebelBanget";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 24px;
+    }
+    
+    .section-paket .box-paket .list-paket-trial h1:nth-child(2) {
+        color: black;
+        font-size: 22px;
+        font-family: "TebelBanget";
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket-trial p:nth-child(3) {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket-trial p:nth-child(4) {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket-trial p:nth-child(5) {
+        background-color: #ffb600;
+        padding: 14px 0px;
+        border-radius: 10px;
+        color: black;
+        font-family: "RadaTebel";
+        width: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px auto;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .sub-helpdesk {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+        width: 100%;
+        padding-left: 40px;
+        font-weight: bold;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .sub-iac {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+        width: 100%;
+        padding-left: 40px;
+        font-weight: bold;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .label-list-desc {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 6px 40px;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .label-list-desc:last-child {
+        margin-bottom: 12px;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .check-ba {
+        color: #ffb600;
+        object-fit: contain;
+        width: 30px;
+    }
+    
+    .section-paket .box-paket .list-paket-trial .desc-pricing {
+        color: black;
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .section-paket .box-paket .list-paket {
+        width: 90%;
+        background: white;
+        margin: 3rem auto;
+        border-radius: 20px;
+        border-style: solid;
+        border-color:#dadada;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section-paket .box-paket .list-paket:hover {
+        width: 90%;
+        background: rgba(255, 182, 0, 0.1);
+        /* margin: 3rem auto; */
+        border-radius: 20px;
+        border-style: solid;
+        border-color:#dadada;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: scale(1.1);
+    }
+    
+    .section-paket .box-paket .list-paket h1:nth-child(1) {
+        color: #ffb600;
+        font-size: 22px;
+        font-family: "TebelBanget";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 24px;
+    }
+    
+    .section-paket .box-paket .list-paket h1:nth-child(2) {
+        color: black;
+        font-size: 22px;
+        font-family: "TebelBanget";
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket p:nth-child(3) {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket p:nth-child(4) {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin: 6px auto;
+    }
+    
+    .section-paket .box-paket .list-paket p:nth-child(5) {
+        background-color: #ffb600;
+        padding: 14px 0px;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        width: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px auto;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .section-paket .box-paket .list-paket .sub-helpdesk {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+        width: 100%;
+        padding-left: 40px;
+        font-weight: bold;
+    }
+    
+    .section-paket .box-paket .list-paket .sub-iac {
+        color: black;
+        font-size: 16px;
+        margin: 6px auto;
+        width: 100%;
+        padding-left: 40px;
+        font-weight: bold;
+    }
+    
+    .section-paket .box-paket .list-paket .label-list-desc {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 6px 40px;
+    }
+    
+    .section-paket .box-paket .list-paket .label-list-desc:last-child {
+        margin-bottom: 12px;
+    }
+    
+    .section-paket .box-paket .list-paket .check-ba {
+        color: #ffb600;
+        object-fit: contain;
+        width: 30px;
+    }
+    
+    .section-paket .box-paket .list-paket .desc-pricing {
+        color: black;
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .penanda {
+        width: 90%;
+        height: 3px;
+        border-width: 0;
+        color: #dadada;
+        background-color: #dadada;
+        margin: 12px auto;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+    
+    .footer {
+        background-color: #2d60a6;
+        padding: 40px;
+    }
+    
+    .footer .content-footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .footer .content-footer .about-yelow-f {
+        width: 30%;
+        padding: 0px 45px;
+        text-align: center;
+    }
+    
+    .footer .content-footer .about-yelow-f img {
+        width: 160px;
+        padding-bottom: 12px;
+    }
+    
+    .footer .content-footer .about-yelow-f p {
+        font-family: "RadaTebel";
+        font-size: 24px;
+        color: white;
+    }
+    
+    .footer .content-footer .bisnis-footer {
+        width: 30%;
+        padding: 0px 45px;
+    }
+    
+    .footer .content-footer .bisnis-footer h5 {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        margin-bottom: 12px;
+        color: white;
+    }
+    
+    .footer .content-footer .bisnis-footer p {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: white;
+    }
+    
+    .footer .content-footer .bisnis-footer p:hover {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: #fac02d;
+        cursor: pointer;
+    }
+    
+    .footer .content-footer .company-footer {
+        width: 30%;
+        padding: 0px 45px;
+    }
+    
+    .footer .content-footer .company-footer h5 {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        margin-bottom: 12px;
+        color: white;
+    }
+    
+    .footer .content-footer .company-footer p {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: white;
+    }
+    
+    .footer .content-footer .company-footer p:hover {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: #fac02d;
+        cursor: pointer;
+    }
+    
+    .footer .content-footer .info-footer {
+        width: 30%;
+        padding: 0px 45px;
+    }
+    
+    .footer .content-footer .info-footer h5 {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        margin-bottom: 12px;
+        color: white;
+        /* col */
+    }
+    
+    .footer .content-footer .info-footer p:last-child {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 6px;
+        padding-top: 12px;
+        color: white;
+    }
+    
+    .footer .content-footer .info-footer p {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: white;
+    }
+    
+    .footer .content-footer .support-footer {
+        width: 30%;
+        padding: 0px 45px;
+    }
+    
+    .footer .content-footer .support-footer h5 {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        margin-bottom: 12px;
+        color: white;
+    }
+    
+    .footer .content-footer .support-footer p {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: white;
+    }
+    
+    .footer .content-footer .support-footer p:hover {
+        font-size: 14px;
+        font-family: "RadaTebel";
+        margin-bottom: 8px;
+        color: #fac02d;
+        cursor: pointer;
+    }
+    
+    .footer .content-footer .download-footer {
+        width: 40%;
+        padding: 0px 45px;
+    }
+    
+    .footer .content-footer .download-footer h5 {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        margin-bottom: 12px;
+        color: white;
+    }
+    
+    .footer .content-footer .download-footer .link-download-foot {
+        margin-bottom: 12px;
+    }
+    
+    .footer .content-footer .download-footer .link-download-foot a {
+        text-decoration: none;
+    }
+    
+    .footer .content-footer .download-footer .link-download-foot .google-play img {
+        width: 145px;
+        margin-right: 12px;
+    }
+    
+    .footer .content-footer .download-footer .link-download-foot .app-store img {
+        width: 135px;
+    }
+    
+    .footer .content-footer .download-footer .social-med {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .footer .content-footer .download-footer .social-med a {
+        text-decoration: none;
+    }
+    
+    .footer .content-footer .download-footer .social-med .facebook img {
+        width: 50px;
+        margin-right: 12px;
+    }
+    
+    .footer .content-footer .download-footer .social-med .instagram img {
+        width: 50px;
+        margin-right: 12px;
+    }
+    
+    .footer .content-footer .download-footer .social-med .youtube img {
+        width: 50px;
+        margin-right: 12px;
+    }
+}

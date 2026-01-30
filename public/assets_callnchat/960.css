@@ -1,0 +1,580 @@
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+    @font-face {
+        font-family: "RadaTebel";
+        src: url("/assets/poppins/Poppins-Medium.ttf");
+        /* font-weight: normal; */
+    }
+    @font-face {
+        font-family: "TebelBanget";
+        src: url("/assets/poppins/Poppins-ExtraBold.ttf");
+        font-weight: bold;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        transition: all .2s linear;
+    }
+
+    body {
+        background-color: #3943B7;
+    }
+
+    .navbar {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 1rem 1rem;
+        position: fixed;
+        top: 0 !important;
+        width: 100%;
+        z-index: 1;
+        height: 4rem;
+    }
+    
+    .navbar .logo {
+        width: 150px;
+        padding-top: 10px;
+    }
+    
+    .navbar .logo img {
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar .auth {
+        display: none;
+    }
+    
+    .menu-bar {
+        display: none;
+    }
+    
+    .navbar .icon-bar {
+        display: block;
+    }
+    
+    .menu-bar.responsive {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        position: fixed;
+        background-color: black;
+        opacity: 0.7;
+        top: 0 !important;
+        width: 100%;
+        z-index: 1;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    
+    .menu-bar.responsive a {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-family: "RadaTebel";
+    }
+
+    .menu-bar .dropdown-menu {
+        display: none;
+    }
+    
+    .munculgaes {
+        display: block;
+    }
+
+    .navbar .icon-bar {
+        display: block;
+    }
+    
+    .navbar .icon-bar .btn-bar {
+        color: black;
+        font-size: 1.5em;
+    }
+    
+    .navbar .icon-bar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar.inverted .icon-bar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar.inverted .icon-bar .btn-bar {
+        color: white;
+    }
+        
+    .inverted {
+        background-color: black;
+        opacity: 0.7;
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 1rem 1rem;
+        position: fixed;
+        top: 0 !important;
+        width: 100%;
+        z-index: 1;
+        height: 4rem;
+    }
+
+    .section-user {
+        background-color: #3943B7;
+        height: fit-content;
+        width: 100%;
+        position: relative;
+        background-image: url(./images/bgheader.png);
+        background-size: 92%;
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin: 4rem auto;
+    }
+    
+    .section-user .col-user {
+        display: flex;
+    }
+    
+    .section-user .col-user .left-column {
+        height: fit-content;
+    }
+    
+    .section-user .col-user .left-column .text-box-user {
+        padding: 30% 1.6rem;
+        height: fit-content;
+        margin: 0px auto;
+        padding-top: 17rem;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(1) {
+        font-size: 36px;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(2) {
+        font-size: 36px;
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(3) {
+        font-size: 36px;
+        font-family: "TebelBanget";
+        color: black;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(4) {
+        font-size: 44px;
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-user .col-user .left-column .text-box-user h1:nth-child(4) span {
+        font-family: "TebelBanget";
+        color: white;
+    }
+    
+    .section-user .col-user .left-column .img-box-user {
+        /* padding: 0px 150px; */
+        position: absolute;
+        left: 1.6rem;
+        bottom: -70px;
+        width: 55%;
+    }
+    
+    .section-user .col-user .left-column .img-box-user img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section-user .col-user .right-column {
+        display: flex;
+        /* flex: 50%; */
+    }
+    
+    .section-user .col-user .right-column .app-box-user {
+        position: absolute;
+        left: 37.6rem;
+        bottom: -60px;
+    }
+    
+    .section-user .col-user .right-column .app-box-user .google-play-user img {
+        width: 58%;
+    }
+    
+    .section-user .col-user .right-column .app-box-user .app-store-user img {
+        width: 58%;
+    }
+
+    .feature-user {
+        display: none;
+    }
+
+    .feature-user-mobile {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
+        position: relative;
+        padding: 0.3rem 0px;
+    }
+    
+    .feature-user-mobile .col-feature {
+        width: 100%;
+        height: fit-content;
+        margin: 2rem auto;
+    }
+
+    .feature-user-mobile .col-feature .box-desc {
+        margin: 1rem auto;
+    }
+
+    .feature-user-mobile .col-feature .box-desc h1 {
+        font-size: 34px;
+        font-family: "TebelBanget";
+        color: black;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feature-user-mobile .col-feature .box-desc h1 span {
+        font-size: 34px;
+        font-family: "TebelBanget";
+        color: #3943B7;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feature-user-mobile .col-feature .box-desc p {
+        font-size: 24px;
+        font-family: "RadaTebel";
+        color: black;
+        text-align: center;
+        justify-content: center;
+        padding: 0px 4rem;
+    }
+
+    .feature-user-mobile .col-feature .box-image {
+        margin: 0px auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feature-user-mobile .col-feature .box-image img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .feature-user-mobile .col-feature p {
+        font-size: 18px;
+        font-family: "RadaTebel";
+        color: black;
+        text-align: left;
+        justify-content: left;
+        padding: 0px 2rem;
+    }
+
+    .end-feature {
+        display: none;
+    }
+
+    .end-feature-mobile {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        background-color: #e7e7e7;
+        position: relative;
+        padding: 0.3rem 0px;
+    }
+
+    .end-feature-mobile .box-end {
+        width: 100%;
+        height: fit-content;
+        margin: 2rem auto;
+    }
+
+    .end-feature-mobile .box-end .box-desc {
+        margin: 1rem auto;
+    }
+
+    .end-feature-mobile .box-end .box-desc h1 {
+        font-size: 34px;
+        font-family: "TebelBanget";
+        color: black;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .end-feature-mobile .box-end .box-desc p {
+        font-size: 26px;
+        font-family: "RadaTebel";
+        color: black;
+        text-align: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+    .end-feature-mobile .box-end .box-image {
+        margin: 0px auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .end-feature-mobile .box-end .box-image .google-play-user img {
+        width: 30%;
+    }
+
+    .end-feature-mobile .box-end .box-image .app-store-user img {
+        width: 30%;
+    }
+
+    .footer {
+        display: none;
+    }
+    
+    .footer-mobile {
+        background-color: #2d60a6;
+        padding: 1rem;
+    }
+
+    .footer-mobile .content-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-mobile .content-footer .about-yelow-f {
+        width: 100%;
+        margin: 0px auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-mobile .content-footer .about-yelow-f img {
+        width: 150px;
+    }
+
+    .footer-mobile .content-footer .about-yelow-f p {
+        font-family: "RadaTebel";
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 {
+        width: 100%;
+        padding: 1rem 0rem;
+        display: flex;
+        text-align: center;
+    }
+    
+    .footer-mobile .content-footer .group-footer-1 .bisnis-footer {
+        flex: 50%;
+    }
+    
+    .footer-mobile .content-footer .group-footer-1 .bisnis-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 .bisnis-footer p {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 .bisnis-footer p:last-child {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 .company-footer {
+        flex: 50%;
+    }
+    
+    .footer-mobile .content-footer .group-footer-1 .company-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 .company-footer p {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-1 .company-footer p:last-child {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-2 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    .footer-mobile .content-footer .group-footer-2 .support-footer {
+        flex: 50%;
+    }
+    
+    .footer-mobile .content-footer .group-footer-2 .support-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+    
+    .footer-mobile .content-footer .group-footer-2 .support-footer p {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-2 .support-footer p:last-child {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-2 .call-us-footer {
+        flex: 50%;
+        /* text-align: left; */
+    }
+    
+    .footer-mobile .content-footer .group-footer-2 .call-us-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+    
+    .footer-mobile .content-footer .group-footer-2 .call-us-footer p {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-2 .call-us-footer p:last-child {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .group-footer-3 {
+        width: 100%;
+        padding: 1rem 0rem;
+        display: flex;
+        text-align: center;
+    }
+
+    .footer-mobile .content-footer .group-footer-3 .address-footer {
+        flex: 100%;
+    }
+    
+    .footer-mobile .content-footer .group-footer-3 .address-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+    
+    .footer-mobile .content-footer .group-footer-3 .address-footer p {
+        font-size: 22px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .download-footer {
+        width: 100%;
+        padding: 0.7rem 0rem;
+        text-align: center;
+    }
+
+    .footer-mobile .content-footer .download-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot {
+        text-align: center;
+        display: flex;
+        margin: 5px auto;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .playstore {
+        flex: 50%;
+        text-align: right;
+        padding-right: 1rem;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .playstore a {
+        text-decoration: none;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .playstore .google-play img {
+        width: 60%;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .appstore {
+        flex: 50%;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .appstore a {
+        text-decoration: none;
+    }
+
+    .footer-mobile .content-footer .download-footer .link-download-foot .appstore .app-store img {
+        width: 55%;
+    }
+
+    .footer-mobile .content-footer .sosmed-footer {
+        width: 100%;
+        padding: 0rem 0rem;
+        text-align: center;
+    }
+
+    .footer-mobile .content-footer .sosmed-footer h5 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med a {
+        text-decoration: none;
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med .fb {
+        flex: 33%;
+        /* text-align: right; */
+        /* padding-right: 1rem; */
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med .ig {
+        flex: 33%;
+        /* text-align: right; */
+        /* padding-right: 1rem; */
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med .yutub {
+        flex: 33%;
+        /* text-align: right; */
+        /* padding-right: 1rem; */
+    }
+
+    .footer-mobile .content-footer .sosmed-footer .social-med .fb .facebook img {
+        width: 75px;
+    }
+    .footer-mobile .content-footer .sosmed-footer .social-med .ig .instagram img {
+        width: 75px;
+    }
+    .footer-mobile .content-footer .sosmed-footer .social-med .yutub .youtube img {
+        width: 75px;
+    }
+}

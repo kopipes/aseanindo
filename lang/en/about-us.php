@@ -1,0 +1,55 @@
+<?php
+
+return [
+    'page_title' => 'About Us',
+    'content_1' => [
+        'title' => 'About Us',
+        'text_orange' => 'HaloYelow',
+        'text_1' => 'is a digital contact center platform for',
+        'text_span_1' => 'customer service',
+        'text_2' => 'with',
+        'text_span_2' => 'fast setup',
+        'text_3' => 'and',
+        'text_span_3' => 'affordable price',
+        'text_4' => '',
+        'text_span_4' => '',
+    ],
+    'content_2' => [
+        'title' => 'Why Digital Contact Center?',
+        'text_span_1' => '',
+        'text_1' => '',
+        'text_span_2' => 'Saves operational costs',
+        'text_2' => 'and',
+        'text_span_3' => 'makes it easy',
+        'text_3' => 'to work from anywhere with internet connection',
+    ],
+    'content_3' => [
+        'title' => 'Mission',
+        'title_span' => 'Company',
+        'text_1' => 'To provide',
+        'text_span_1' => 'solution',
+        'text_2' => 'for',
+        'text_span_2' => 'better and more effective',
+        'text_3' => 'customer engagement through',
+        'text_span_3' => 'innovation',
+        'text_4' => 'in digital contact center',
+    ],
+    'content_4' => [
+        'title' => 'Vision',
+        'title_span' => 'Company',
+        'text_1' => 'To be the',
+        'text_span_1' => 'first choice',
+        'text_2' => 'for Digital Contact Center solution',
+    ],
+    'before_footer_1' => [
+        'angka' => '10+',
+        'title' => 'Years',
+        'desc' => 'experience managing contact center',
+    ],
+    'before_footer_2' => [
+        'angka' => '50+',
+        'title' => 'Million Seconds',
+        'desc' => 'conversations in one month',
+    ],
+    'text_team' => 'Our Team',
+];

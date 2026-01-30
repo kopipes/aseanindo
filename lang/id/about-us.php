@@ -1,0 +1,55 @@
+<?php
+
+return [
+    'page_title' => 'Tentang Kami',
+    'content_1' => [
+        'title' => 'Tentang Kami',
+        'text_orange' => 'HaloYelow',
+        'text_1' => 'adalah platform digital contact center untuk layanan',
+        'text_span_1' => 'customer service',
+        'text_2' => 'yang menawarkan',
+        'text_span_2' => 'setup cepat',
+        'text_3' => 'dan',
+        'text_span_3' => 'mudah',
+        'text_4' => 'dengan',
+        'text_span_4' => 'biaya terjangkau',
+    ],
+    'content_2' => [
+        'title' => 'Kenapa Digital Contact Center?',
+        'text_span_1' => 'Digital Contact Center',
+        'text_1' => 'semakin populer karena',
+        'text_span_2' => 'menghemat biaya',
+        'text_2' => 'operasional dan memberikan',
+        'text_span_3' => 'kemudahan',
+        'text_3' => 'untuk bekerja dari mana saja selama ada koneksi internet',
+    ],
+    'content_3' => [
+        'title' => 'Misi',
+        'title_span' => 'Perusahaan',
+        'text_1' => 'Memberikan',
+        'text_span_1' => 'solusi',
+        'text_2' => 'customer engagement yang lebih',
+        'text_span_2' => 'baik dan efektif',
+        'text_3' => 'melalui teknologi digital contact center yang',
+        'text_span_3' => 'inovatif',
+        'text_4' => '',
+    ],
+    'content_4' => [
+        'title' => 'Visi',
+        'title_span' => 'Perusahaan',
+        'text_1' => 'Menjadi',
+        'text_span_1' => 'pilihan utama',
+        'text_2' => 'solusi Digital Contact Center',
+    ],
+    'before_footer_1' => [
+        'angka' => '10+',
+        'title' => 'Tahun',
+        'desc' => 'pengalaman mengelola contact center',
+    ],
+    'before_footer_2' => [
+        'angka' => '50+',
+        'title' => 'Juta Detik',
+        'desc' => 'percakapan dalam satu bulan',
+    ],
+    'text_team' => 'Tim Kami',
+];
