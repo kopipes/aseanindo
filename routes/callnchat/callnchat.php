@@ -35,6 +35,7 @@ Route::middleware(['localization'])->group(function () {
             Route::get('omnichannel-contact-center', 'OmniChannel')->name('omnichannel-contact-center');
             Route::get('automation-customer-service', 'AutomationCustomerService')->name('automation-customer-service');
             Route::get('sdm-outsourcing', 'SdmOutsourcing')->name('sdm-outsourcing');
+            Route::get('ai-qa-scoring', 'AiQaScoring')->name('ai-qa-scoring');
         });
 
         Route::get('faq', 'faq')->name('faq');
@@ -64,6 +65,7 @@ Route::middleware(['localization'])->group(function () {
             Route::get('omnichannel-contact-center', [LandingPageController::class, 'OmniChannel'])->name('omnichannel-contact-center.en');
             Route::get('automation-customer-service', [LandingPageController::class, 'AutomationCustomerService'])->name('automation-customer-service.en');
             Route::get('sdm-outsourcing', [LandingPageController::class, 'SdmOutsourcing'])->name('sdm-outsourcing.en');
+            Route::get('ai-qa-scoring', [LandingPageController::class, 'AiQaScoring'])->name('ai-qa-scoring.en');
         });
 
         Route::get('blog', [LandingPageController::class, 'blog'])->name('blog.en');
@@ -83,6 +85,6 @@ Route::middleware(['localization'])->group(function () {
 Route::get('/9uf4keeB7kefcn5Joozp/{companyId}', CallnChatConfigController::class)->name('callnchat.config');
 
 Route::get('/{username}', function ($username) {
-     return to_route('callnchat.index', [$username, 'contact']);
+    return to_route('callnchat.index', [$username, 'contact']);
 });
 Route::get('{username}/{any}', CallnChatIndexController::class)->where('any', '.*')->name('callnchat.index');

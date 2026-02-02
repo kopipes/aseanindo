@@ -68,6 +68,11 @@ class LandingPageController extends Controller
     {
         return view($this->getViewPath('product.sdm-outsourcing'));
     }
+
+    public function AiQaScoring(Request $request)
+    {
+        return view($this->getViewPath('product.ai-qa-scoring'));
+    }
     public function FAQ(Request $request)
     {
         return view($this->getViewPath('faq'));
@@ -139,29 +144,29 @@ class LandingPageController extends Controller
     }
 
     public function setLang($locale, $slug = null)
-{
-    Session::put('locale', $locale);
-    $previousUrl = url()->previous();
-    $currentPath = str_replace(url('/'), '', $previousUrl);
-    if ($slug) {
-        $blogController = app(BlogController::class);
-        $currentArticleData = $blogController->getArticleData($slug, session('locale', 'id'));
-        if ($currentArticleData) {
-            $targetArticleData = $blogController->getArticleDataById($currentArticleData['id'], $locale);
-            if ($targetArticleData) {
-                if ($locale === 'en') {
-                    return redirect()->route('blog.show.en', ['slug' => basename($targetArticleData['link'])]);
-                } else {
-                    return redirect()->route('blog.show.id', ['slug' => basename($targetArticleData['link'])]);
+    {
+        Session::put('locale', $locale);
+        $previousUrl = url()->previous();
+        $currentPath = str_replace(url('/'), '', $previousUrl);
+        if ($slug) {
+            $blogController = app(BlogController::class);
+            $currentArticleData = $blogController->getArticleData($slug, session('locale', 'id'));
+            if ($currentArticleData) {
+                $targetArticleData = $blogController->getArticleDataById($currentArticleData['id'], $locale);
+                if ($targetArticleData) {
+                    if ($locale === 'en') {
+                        return redirect()->route('blog.show.en', ['slug' => basename($targetArticleData['link'])]);
+                    } else {
+                        return redirect()->route('blog.show.id', ['slug' => basename($targetArticleData['link'])]);
+                    }
                 }
             }
         }
+        if ($locale === 'en' && strpos($currentPath, '/en') === false) {
+            return redirect('/en' . $currentPath);
+        } elseif ($locale === 'id' && strpos($currentPath, '/en') !== false) {
+            return redirect(str_replace('/en', '', $currentPath));
+        }
+        return redirect()->back();
     }
-    if ($locale === 'en' && strpos($currentPath, '/en') === false) {
-        return redirect('/en' . $currentPath);
-    } elseif ($locale === 'id' && strpos($currentPath, '/en') !== false) {
-        return redirect(str_replace('/en', '', $currentPath));
-    }
-    return redirect()->back();
-}
 }

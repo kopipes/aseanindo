@@ -1,15 +1,16 @@
 @extends('en.layout-landing.master')
 
 @section('title')
-<title>Contact Center Software Solution - Kontakami</title>
+    <title>Contact Center Software Solution - Kontakami</title>
 @endsection()
 
 @section('seo')
-<meta property="og:title" content="The Best Solution to Connect Your Customers with Your Business" />
-    <meta property="og:description" content="Kontakami provides a practical solution to simplify communication between businesses and customers across multiple channels. Enhance customer interaction and satisfaction with our reliable and efficient services." />
-<meta name="description"
+    <meta property="og:title" content="The Best Solution to Connect Your Customers with Your Business" />
+    <meta property="og:description"
+        content="Kontakami provides a practical solution to simplify communication between businesses and customers across multiple channels. Enhance customer interaction and satisfaction with our reliable and efficient services." />
+    <meta name="description"
         content="Kontakami offers a practical contact center software solution, ensuring your business operates effectively and efficiently.">
-<link rel="canonical" href="https://kontakami.com/en" />
+    <link rel="canonical" href="https://kontakami.com/en" />
 @endsection()
 
 @section('content')
@@ -19,16 +20,21 @@
             <!-- Content -->
             <div class="max-w-lg px-4 text-white animate-fade-in-left-bounce">
                 <p class="text-xs md:text-sm font-semibold mb-2 font-montserrat">Effective Communication Solutions</p>
-                <h1 class="text-3xl md:text-4xl font-bold mb-4 font-montserrat">The Most Convenient Contact Center Services</h1>
+                <h1 class="text-3xl md:text-4xl font-bold mb-4 font-montserrat">The Most Convenient Contact Center Services
+                </h1>
                 <p class="text-xs md:text-base mb-6 font-ubuntu">
-                    Kontakami provides effective communication solutions as a practical contact center service. This platform is designed to ensure smooth, fast communication that is accessible from anywhere without hassle.</p>
+                    Kontakami provides effective communication solutions as a practical contact center service. This
+                    platform is designed to ensure smooth, fast communication that is accessible from anywhere without
+                    hassle.</p>
 
                 <!-- Buttons -->
                 <div class="flex flex-row gap-5 font-ubuntu">
                     <a href="/en/contact"
-                        class="px-4 py-3 bg-orange text-white rounded-full text-sm font-medium hover:bg-white hover:border hover:border-orange hover:text-orange transition">Need Help?</a>
+                        class="px-4 py-3 bg-orange text-white rounded-full text-sm font-medium hover:bg-white hover:border hover:border-orange hover:text-orange transition">Need
+                        Help?</a>
                     <a href="/en/product"
-                        class="px-4 py-3 text-white text-sm font-medium underline transition hover:text-orange hover:font-medium">Learn More ></a>
+                        class="px-4 py-3 text-white text-sm font-medium underline transition hover:text-orange hover:font-medium">Learn
+                        More ></a>
                 </div>
             </div>
         </div>
@@ -99,6 +105,25 @@
         </div>
     </div>
 
+    <div class="max-w-5xl mx-auto py-20 px-4 md:px-8 flex flex-col lg:flex-row items-center justify-between">
+        <div class="w-full lg:w-1/2 lg:pr-12 animate-fade-in-left-bounce">
+            <p class="text-indigo-600 font-semibold mb-2 font-ubuntu">Product</p>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 font-montserrat">AI QA Scoring</h2>
+            <p class="text-gray-600 mb-6 font-ubuntu">
+                AI QA Scoring helps analyze phone conversations between customers and agents objectively, consistently and
+                in
+                real-time; so the QA team can focus on analysis, coaching, and data-driven decisions.
+            </p>
+            <p class="text-orange font-semibold text-lg font-ubuntu">"100% Automated and Real-Time Customer Interaction
+                Analysis"</p>
+        </div>
+
+        <div class="w-full lg:w-1/2 mb-8 lg:mb-0 relative animate-fade-in-right-bounce">
+            <img src="/img/rebranding/ai-qa-scoring/human-ai-synergy.png" alt="Human + AI Synergy"
+                class="rounded-lg shadow-lg w-full">
+        </div>
+    </div>
+
     <div class="max-w-5xl mx-auto py-20 px-4 md:px-8 flex flex-col lg:flex-row items-center justify-between" id="content">
         <div class="w-full lg:w-1/2 mb-8 lg:mb-0 relative animate-fade-in-left-bounce">
             <img src="/img/rebranding/komunikasi-efisien.gif" alt="Product Information" class="rounded-lg shadow-lg">
@@ -121,7 +146,8 @@
             <p class="text-indigo-600 font-semibold mb-2 font-ubuntu">Efficient Communication</p>
             <h2 class="text-3xl font-bold text-gray-900 mb-4 font-montserrat">Maximize Communication with the Internet</h2>
             <p class="text-gray-600 mb-6 font-ubuntu">
-                Now, customers can easily communicate with many people through the internet. With our platform, interactions become more efficient, fast, and affordable, allowing you to connect with anyone, anytime, without limits.
+                Now, customers can easily communicate with many people through the internet. With our platform, interactions
+                become more efficient, fast, and affordable, allowing you to connect with anyone, anytime, without limits.
             </p>
         </div>
     </div>
@@ -135,8 +161,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -161,8 +186,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -187,8 +211,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -213,8 +236,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -238,8 +260,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -263,8 +284,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -301,7 +321,9 @@
         <div class="text-center mb-12 max-w-4xl animate-bounce-in">
             <h2 class="text-3xl font-bold text-gray-900 font-montserrat">The Right Digital Solutions for You</h2>
             <p class="text-gray-600 mt-4 font-ubuntu">
-                Kontakami offers a contact center platform specifically designed to meet your business needs. With flexibility and comprehensive features, we help you enhance communication efficiency and customer satisfaction.
+                Kontakami offers a contact center platform specifically designed to meet your business needs. With
+                flexibility and comprehensive features, we help you enhance communication efficiency and customer
+                satisfaction.
             </p>
         </div>
 
@@ -325,7 +347,8 @@
                 </div>
                 <h2 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">Inbound Live Chat & Bot</h2>
                 <p class="text-gray-600 font-ubuntu">
-                    Providing live chat and bot options across various platforms, making customer interactions easier anywhere.
+                    Providing live chat and bot options across various platforms, making customer interactions easier
+                    anywhere.
                 </p>
             </div>
 
@@ -369,7 +392,8 @@
                 </div>
                 <h2 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">Omnichannel</h2>
                 <p class="text-gray-600 font-ubuntu">
-                    Manage customer communication from Facebook, Email, WhatsApp, and Instagram on a single platform for more efficient responses.
+                    Manage customer communication from Facebook, Email, WhatsApp, and Instagram on a single platform for
+                    more efficient responses.
                 </p>
             </div>
         </div>
@@ -380,7 +404,8 @@
         <div class="text-center mb-12 max-w-4xl">
             <h2 class="text-3xl font-bold text-gray-900 font-montserrat">Why Choose Kontakami?</h2>
             <p class="text-gray-600 mt-4 font-ubuntu">
-                Kontakami offers flexible and efficient contact center solutions with a range of outstanding features. All features are available in one easy-to-use platform without the need for additional applications.
+                Kontakami offers flexible and efficient contact center solutions with a range of outstanding features. All
+                features are available in one easy-to-use platform without the need for additional applications.
             </p>
         </div>
 
@@ -403,7 +428,8 @@
                 <div>
                     <h3 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">B2B and B2C support</h3>
                     <p class="text-gray-600 font-ubuntu">
-                        Facilitates communication with corporate clients, customers, and branch offices without the need for a phone number.
+                        Facilitates communication with corporate clients, customers, and branch offices without the need for
+                        a phone number.
                     </p>
                 </div>
             </div>
@@ -436,7 +462,8 @@
                 <div>
                     <h3 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">All-in-One Platform</h3>
                     <p class="text-gray-600 font-ubuntu">
-                        Manage inbound, outbound, and omnichannel communication in one system without additional applications.
+                        Manage inbound, outbound, and omnichannel communication in one system without additional
+                        applications.
                     </p>
                 </div>
             </div>
@@ -480,7 +507,8 @@
         <div class="text-center mb-12 max-w-4xl">
             <h2 class="text-3xl font-bold text-gray-900 font-montserrat">Our Business</h2>
             <p class="text-gray-600 mt-4 font-ubuntu">
-                Your customers can connect with customer service through web calls and live chat on the site. We are ready to support your business with responsive real-time services for customer needs.
+                Your customers can connect with customer service through web calls and live chat on the site. We are ready
+                to support your business with responsive real-time services for customer needs.
             </p>
         </div>
 
@@ -491,21 +519,28 @@
                 <img src="/img/rebranding/call.gif" alt="Live Call" class="rounded-md mb-6">
                 <div>
                     <span class="text-orange font-bold font-ubuntu">Live Call</span>
-                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Real-Time Connection with Live Call</h2>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Real-Time Connection with Live Call
+                    </h2>
                     <p class="text-gray-600 mb-4 font-ubuntu">
-                        Your customers can connect directly with customer service through voice calls on your business website. We are ready to support real-time customer interactions to address any questions or needs they may have.
+                        Your customers can connect directly with customer service through voice calls on your business
+                        website. We are ready to support real-time customer interactions to address any questions or needs
+                        they may have.
                     </p>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
                 <img src="/img/rebranding/chat.gif" alt="Live Chat" class="rounded-md mb-6">
                 <div>
                     <span class="text-orange font-bold font-ubuntu">Live Chat</span>
-                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Quick & Responsive Assistance through Live Chat</h2>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Quick & Responsive Assistance through
+                        Live Chat</h2>
                     <p class="text-gray-600 mb-4 font-ubuntu">
-                        Your customers can connect with customer service through the live chat feature on your business website. We provide quick and responsive assistance to ensure a smooth and efficient customer experience.
+                        Your customers can connect with customer service through the live chat feature on your business
+                        website. We provide quick and responsive assistance to ensure a smooth and efficient customer
+                        experience.
                     </p>
                 </div>
             </div>
@@ -516,19 +551,23 @@
                     <span class="text-orange font-bold font-ubuntu">Call Back</span>
                     <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Quickly Connect Back with Callback</h2>
                     <p class="text-gray-600 mb-4 font-ubuntu">
-                        The Callback service allows customers to leave a message to be contacted back by an agent when they are busy or outside of operating hours.
+                        The Callback service allows customers to leave a message to be contacted back by an agent when they
+                        are busy or outside of operating hours.
                     </p>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
                 <img src="/img/rebranding/whatsapp-broadcast.gif" alt="WhatsApp Broadcast" class="rounded-md mb-6">
                 <div>
                     <span class="text-orange font-bold font-ubuntu">WhatsApp Broadcast</span>
-                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Reach Customers More Easily via WhatsApp</h2>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Reach Customers More Easily via
+                        WhatsApp</h2>
                     <p class="text-gray-600 mb-4 font-ubuntu">
-                        Send promotions and product information directly to multiple customers in one go via WhatsApp Broadcast for quicker responses.
+                        Send promotions and product information directly to multiple customers in one go via WhatsApp
+                        Broadcast for quicker responses.
                     </p>
                 </div>
             </div>
@@ -540,7 +579,8 @@
         <div class="relative z-10 text-center text-white px-4 max-w-3xl">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 font-montserrat">Optimize Your Customer Service</h2>
             <p class="text-sm md:text-base mb-6 font-ubuntu">
-                Enhance efficiency and customer engagement with a comprehensive digital contact center platform. Enjoy easy access, omnichannel integration, and top-notch service management with Kontakami.
+                Enhance efficiency and customer engagement with a comprehensive digital contact center platform. Enjoy easy
+                access, omnichannel integration, and top-notch service management with Kontakami.
             </p>
             <a href="/en/contact"
                 class="inline-block px-6 py-3 bg-orange text-white rounded-xl font-bold text-sm hover:bg-white hover:border hover:border-orange hover:text-orange transition font-montserrat">

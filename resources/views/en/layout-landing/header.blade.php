@@ -44,6 +44,9 @@
                 <div id="dropdown-menu-produk"
                     class="absolute -left-5 mt-2 bg-white shadow-lg rounded-lg p-8 opacity-0 invisible transition-opacity duration-200 z-10 min-w-[300px] w-auto group-hover:opacity-100 group-hover:visible">
                     <ul class="space-y-4">
+                        <li><a href="/en/product/ai-qa-scoring"
+                                class="{{ Request::is('en/product/ai-qa-scoring') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">AI
+                                QA Scoring</a></li>
                         <li><a href="/en/product/contact-center-software"
                                 class="{{ Request::is('en/product/contact-center-software') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">Contact
                                 Center Software</a></li>
@@ -60,7 +63,8 @@
                                 class="{{ Request::is('en/product/features-and-benefits') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">Features
                                 and Benefits</a></li>
                         <li><a href="/en/product/automation-customer-service"
-                                class="{{ Request::is('en/product/automation-customer-service') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">Customer Service Automation</a></li>
+                                class="{{ Request::is('en/product/automation-customer-service') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">Customer
+                                Service Automation</a></li>
                         <li><a href="/en/product/workforce-performance"
                                 class="{{ Request::is('en/product/workforce-performance') ? 'font-semibold' : 'text-darkblue font-medium hover:font-semibold' }} relative">Workforce
                                 Performance</a></li>
@@ -100,49 +104,77 @@
 
         <div class="hidden lg:flex items-center space-x-4">
             <div class="hidden lg:flex space-x-2 items-center">
-                <a href="{{ route('callnchat.lang', ['locale' => 'id', 'slug' => $otherSlug ?? null]) }}" class="text-gray-600 hover:text-gray-900" aria-label="language id">ID</a>
+                <a href="{{ route('callnchat.lang', ['locale' => 'id', 'slug' => $otherSlug ?? null]) }}"
+                    class="text-gray-600 hover:text-gray-900" aria-label="language id">ID</a>
                 <span class="text-gray-600">|</span>
-                <a href="{{ route('callnchat.lang', ['locale' => 'en', 'slug' => $otherSlug ?? null]) }}" class="text-gray-600 hover:text-gray-900" aria-label="language en">EN</a>
+                <a href="{{ route('callnchat.lang', ['locale' => 'en', 'slug' => $otherSlug ?? null]) }}"
+                    class="text-gray-600 hover:text-gray-900" aria-label="language en">EN</a>
             </div>
-        </div>   
+        </div>
     </div>
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="lg:hidden menu-hidden bg-white p-4 shadow-md">
         <ul class="space-y-4">
-            <li><a href="{{ localized_url() }}" class="{{ Request::is('en') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Home</a></li>
+            <li><a href="{{ localized_url() }}"
+                    class="{{ Request::is('en') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Home</a>
+            </li>
             <li class="relative">
                 <button id="mobile-product-btn"
                     class="w-full text-left text-gray-600 hover:text-gray-900 font-medium flex items-center justify-between">
-                    <a href="en/product" class="{{ Request::is('en/product*') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Product</a> <i class="fas fa-chevron-down"></i>
+                    <a href="en/product"
+                        class="{{ Request::is('en/product*') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Product</a>
+                    <i class="fas fa-chevron-down"></i>
                 </button>
                 <ul id="mobile-product-menu" class="hidden space-y-2 mt-2">
-                    <li><a href="en/product/contact-center-software" class="{{ Request::is('en/product/contact-center-software') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Contact
+                    <li><a href="en/product/ai-qa-scoring"
+                            class="{{ Request::is('en/product/ai-qa-scoring') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">AI
+                            QA Scoring</a></li>
+                    <li><a href="en/product/contact-center-software"
+                            class="{{ Request::is('en/product/contact-center-software') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Contact
                             Center Software</a></li>
                     <li><a href="en/product/omnichannel-contact-center"
-                        class="{{ Request::is('product/omnichannel-contact-center') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Omnichannel Contact Center</a></li>
-                    <li><a href="en/product/self-service-contact-center" class="{{ Request::is('en/product/self-service-contact-center') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Self
+                            class="{{ Request::is('product/omnichannel-contact-center') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Omnichannel
+                            Contact Center</a></li>
+                    <li><a href="en/product/self-service-contact-center"
+                            class="{{ Request::is('en/product/self-service-contact-center') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Self
                             Service Contact Center</a></li>
                     <li><a href="en/product/ticketing-management-system"
-                        class="{{ Request::is('en/product/ticketing-management-system') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Ticketing Management System</a></li>
-                    <li><a href="en/product/features-and-benefits" class="{{ Request::is('en/product/features-and-benefits') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Features and
+                            class="{{ Request::is('en/product/ticketing-management-system') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Ticketing
+                            Management System</a></li>
+                    <li><a href="en/product/features-and-benefits"
+                            class="{{ Request::is('en/product/features-and-benefits') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Features
+                            and
                             Benefits</a></li>
-                    <li><a href="en/product/automation-customer-service" class="{{ Request::is('en/product/automation-customer-service') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">
+                    <li><a href="en/product/automation-customer-service"
+                            class="{{ Request::is('en/product/automation-customer-service') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">
                             Customer Service Automation</a></li>
-                    <li><a href="en/product/workforce-performance" class="{{ Request::is('en/product/workforce-performance') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Workforce
+                    <li><a href="en/product/workforce-performance"
+                            class="{{ Request::is('en/product/workforce-performance') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Workforce
                             Performance</a></li>
-                    <li><a href="en/product/sdm-outsourcing" class="{{ Request::is('en/product/sdm-outsourcing') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">SDM
+                    <li><a href="en/product/sdm-outsourcing"
+                            class="{{ Request::is('en/product/sdm-outsourcing') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">SDM
                             Outsourcing</a></li>
                 </ul>
             </li>
-            <li><a href="/en/about" class="{{ Request::is('en/about') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Company</a></li>
-            <li><a href="/blog" class="{{ Request::is('blog') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Article</a></li>
-            <li><a href="/contact" class="{{ Request::is('contact') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Contact Us</a></li>
-            <li><a href="/faq" class="{{ Request::is('faq') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Help</a></li>
+            <li><a href="/en/about"
+                    class="{{ Request::is('en/about') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Company</a>
+            </li>
+            <li><a href="/blog"
+                    class="{{ Request::is('blog') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Article</a>
+            </li>
+            <li><a href="/contact"
+                    class="{{ Request::is('contact') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Contact
+                    Us</a></li>
+            <li><a href="/faq"
+                    class="{{ Request::is('faq') ? 'text-darkblue font-semibold' : 'text-gray-600 hover:text-darkblue hover:font-semibold font-medium' }}">Help</a>
+            </li>
             <li class="flex justify-center space-x-4">
-                <a href="{{ route('callnchat.lang', ['locale' => 'id', 'slug' => $otherSlug ?? null]) }}" class="text-gray-600 hover:text-gray-900" aria-label="language id">ID</a>
+                <a href="{{ route('callnchat.lang', ['locale' => 'id', 'slug' => $otherSlug ?? null]) }}"
+                    class="text-gray-600 hover:text-gray-900" aria-label="language id">ID</a>
                 <span class="text-gray-600">|</span>
-                <a href="{{ route('callnchat.lang', ['locale' => 'en', 'slug' => $otherSlug ?? null]) }}" class="text-gray-600 hover:text-gray-900" aria-label="language en">EN</a>
+                <a href="{{ route('callnchat.lang', ['locale' => 'en', 'slug' => $otherSlug ?? null]) }}"
+                    class="text-gray-600 hover:text-gray-900" aria-label="language en">EN</a>
             </li>
         </ul>
     </div>

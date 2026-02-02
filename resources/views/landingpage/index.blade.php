@@ -1,15 +1,16 @@
 @extends('layout-landing.master')
 
 @section('title')
-<title>Solusi Contact Center Software - Kontakami</title>
+    <title>Solusi Contact Center Software - Kontakami</title>
 @endsection()
 
 @section('seo')
-<meta property="og:title" content="Kontakami - Solusi Terbaik untuk Menghubungkan Pelanggan dengan Bisnis Anda" />
-    <meta property="og:description" content="Kontakami menyediakan solusi praktis untuk mempermudah komunikasi antara bisnis dan pelanggan melalui berbagai kanal. Tingkatkan interaksi dan kepuasan pelanggan dengan layanan kami yang andal dan efisien." />
-<meta name="description"
+    <meta property="og:title" content="Kontakami - Solusi Terbaik untuk Menghubungkan Pelanggan dengan Bisnis Anda" />
+    <meta property="og:description"
+        content="Kontakami menyediakan solusi praktis untuk mempermudah komunikasi antara bisnis dan pelanggan melalui berbagai kanal. Tingkatkan interaksi dan kepuasan pelanggan dengan layanan kami yang andal dan efisien." />
+    <meta name="description"
         content="Kontakami memberikan solusi contact center software yang praktis. Memastikan bisnis Anda berjalan efektif dan efisien.">
-<link rel="canonical" href="https://kontakami.com/" />
+    <link rel="canonical" href="https://kontakami.com/" />
 @endsection()
 
 @section('content')
@@ -105,6 +106,27 @@
         </div>
     </div>
 
+    </div>
+
+    <div class="max-w-5xl mx-auto py-20 px-4 md:px-8 flex flex-col lg:flex-row items-center justify-between">
+        <div class="w-full lg:w-1/2 lg:pr-12 animate-fade-in-left-bounce">
+            <p class="text-indigo-600 font-semibold mb-2 font-ubuntu">Produk</p>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 font-montserrat">AI QA Scoring</h2>
+            <p class="text-gray-600 mb-6 font-ubuntu">
+                AI QA Scoring membantu menganalisis percakapan telepon antara pelanggan dan agen secara objektif, konsisten,
+                dan
+                real-time; sehingga tim QA dapat fokus pada analisis, pelatihan, dan keputusan berbasis data.
+            </p>
+            <p class="text-orange font-semibold text-lg font-ubuntu">"Analisis Interaksi Pelanggan 100% Otomatis dan
+                Real-Time"</p>
+        </div>
+
+        <div class="w-full lg:w-1/2 mb-8 lg:mb-0 relative animate-fade-in-right-bounce">
+            <img src="/img/rebranding/ai-qa-scoring/human-ai-synergy.png" alt="Sinergi Manusia + AI"
+                class="rounded-lg shadow-lg w-full">
+        </div>
+    </div>
+
     <div class="max-w-5xl mx-auto py-20 px-4 md:px-8 flex flex-col lg:flex-row items-center justify-between" id="content">
         <div class="w-full lg:w-1/2 mb-8 lg:mb-0 relative animate-fade-in-left-bounce">
             <img src="/img/rebranding/komunikasi-efisien.gif" alt="Product Information" class="rounded-lg shadow-lg">
@@ -143,8 +165,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -169,8 +190,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -195,8 +215,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -221,8 +240,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -246,8 +264,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -271,8 +288,7 @@
 
                 <li class="flex items-center">
                     <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <g clip-path="url(#clip0_942_5122)">
                                 <path
                                     d="M8.5 0C3.81291 0 0 3.81291 0 8.5C0 13.1871 3.81291 17 8.5 17C13.1871 17 17 13.1871 17 8.5C17 3.81291 13.1871 0 8.5 0Z"
@@ -407,7 +423,10 @@
                 <div>
                     <h3 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">Multiple Access</h3>
                     <p class="text-gray-600 font-ubuntu">
-                        Banyak cara untuk terhubung ke <a href="https://kontakami.com/blog/contact-center-pengertian-manfaat-dan-rekomendasi-untuk-bisnis"><span class="text-lightblue">contact center</span></a>, termasuk melalui berbagai platform digital.
+                        Banyak cara untuk terhubung ke <a
+                            href="https://kontakami.com/blog/contact-center-pengertian-manfaat-dan-rekomendasi-untuk-bisnis"><span
+                                class="text-lightblue">contact center</span></a>, termasuk melalui berbagai platform
+                        digital.
                     </p>
                 </div>
             </div>
@@ -451,7 +470,9 @@
                 <div>
                     <h3 class="text-lg font-bold text-indigo-700 mb-2 font-montserrat">All-in-One Platform</h3>
                     <p class="text-gray-600 font-ubuntu">
-                        Mengelola komunikasi inbound, outbound, dan <a href="https://kontakami.com/blog/omnichannel-contact-center-pengertian-manfaat-dan-cara-memilih"><span class="text-lightblue">omnichannel</span></a> dalam satu sistem tanpa aplikasi tambahan.
+                        Mengelola komunikasi inbound, outbound, dan <a
+                            href="https://kontakami.com/blog/omnichannel-contact-center-pengertian-manfaat-dan-cara-memilih"><span
+                                class="text-lightblue">omnichannel</span></a> dalam satu sistem tanpa aplikasi tambahan.
                     </p>
                 </div>
             </div>
@@ -495,7 +516,10 @@
         <div class="text-center mb-12 max-w-4xl">
             <h2 class="text-3xl font-bold text-gray-900 font-montserrat">Bisnis Kami</h2>
             <p class="text-gray-600 mt-4 font-ubuntu">
-                Pelanggan Anda dapat terhubung dengan <a href="https://kontakami.com/blog/rekomendasi-aplikasi-customer-service-untuk-solusi-digital-bisnis-anda"><span class="text-lightblue">customer service</span></a> melalui web call dan live chat di situs. Kami siap
+                Pelanggan Anda dapat terhubung dengan <a
+                    href="https://kontakami.com/blog/rekomendasi-aplikasi-customer-service-untuk-solusi-digital-bisnis-anda"><span
+                        class="text-lightblue">customer service</span></a> melalui web call dan live chat di situs. Kami
+                siap
                 mendukung bisnis Anda dengan layanan real-time yang responsif untuk kebutuhan pelanggan.
             </p>
         </div>
@@ -519,14 +543,19 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
                 <img src="/img/rebranding/chat.webp" alt="Live Chat" class="rounded-md mb-6">
                 <div>
                     <span class="text-orange font-bold font-ubuntu">Live Chat</span>
                     <h2 class="text-lg font-bold text-gray-900 mb-4 font-montserrat">Bantuan Cepat & Responsif melalui Live
                         Chat</h2>
                     <p class="text-gray-600 mb-4 font-ubuntu">
-                        Pelanggan Anda dapat terhubung dengan bisnis melalui fitur <a href="https://kontakami.com/blog/live-chat-customer-service-untuk-meningkatkan-pengalaman-pelanggan"><span class="text-lightblue">live chat customer service</span></a> di situs web bisnis Anda. Kami menyediakan bantuan cepat dan responsif untuk memastikan pengalaman pelanggan tetap lancar dan efisien.
+                        Pelanggan Anda dapat terhubung dengan bisnis melalui fitur <a
+                            href="https://kontakami.com/blog/live-chat-customer-service-untuk-meningkatkan-pengalaman-pelanggan"><span
+                                class="text-lightblue">live chat customer service</span></a> di situs web bisnis Anda. Kami
+                        menyediakan bantuan cepat dan responsif untuk memastikan pengalaman pelanggan tetap lancar dan
+                        efisien.
                     </p>
                 </div>
             </div>
@@ -546,7 +575,8 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row-reverse gap-4 justify-center items-center">
                 <img src="/img/rebranding/whatsapp-broadcast.webp" alt="WhatsApp Broadcast" class="rounded-md mb-6">
                 <div>
                     <span class="text-orange font-bold font-ubuntu">WhatsApp Broadcast</span>
