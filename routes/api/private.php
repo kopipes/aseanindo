@@ -53,7 +53,7 @@ Route::controller(ApiProductController::class)
           Route::get('/following', 'followingProduct')->name('following');
           Route::get('/favorite', 'favoriteProduct')->name('favorite');
           Route::post('/{id}/report', 'report')->name('report');
-          Route::post('/{product_id}/{company_id}/favorite', 'love')->name('favorite');
+          Route::post('/{product_id}/{company_id}/favorite', 'love')->name('love');
      });
 
 Route::controller(ApiAccountController::class)
@@ -89,7 +89,16 @@ Route::controller(ApiCallController::class)
           Route::post('/agent/{agent_id}/{company_id}', 'inviteAgent')->name('call-agent');
           Route::post('/customer/{customer_id}', 'callCustomer')->name('call-customer');
           Route::post('/{call_id}/{action}', 'callActionDo')->name('call-action')->whereIn('action', [
-               'accept', 'reject', 'cancel', 'end', 'missed', 'disconnect', 'spv-join', 'spv-leave', 'spv-reject','invite-spv'
+               'accept',
+               'reject',
+               'cancel',
+               'end',
+               'missed',
+               'disconnect',
+               'spv-join',
+               'spv-leave',
+               'spv-reject',
+               'invite-spv'
           ]);
      });
 
