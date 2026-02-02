@@ -34,7 +34,7 @@ Route::controller(HelpdeskController::class)
           Route::get('faq/top', 'topFaq')->name('top-faq');
           Route::get('faq/{id}', 'detailFaq')->name('detail-faq');
           Route::get('helpdesk-category', 'helpdeskCategory')->name('helpdesk-category-list');
-          Route::get('agent/{id}/{category}', 'agent')->name('helpdesk-category-list');
+          Route::get('agent/{id}/{category}', 'agent')->name('agent-category-list');
           Route::get('agent/{id}', 'detailAgent')->name('detail-agent');
           Route::get('helpdesk-list/{id}/{category}', 'helpdeskList')->name('helpdesk-list');
           Route::get('agent/available/{id}/{category}', 'availableAgent')->name('available-agent');
