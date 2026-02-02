@@ -30,7 +30,7 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->routes(function () {
 
-            if (in_array(request()->getHost(), ['www.kontakami.com', 'kontakami.com', 'localhost', '127.0.0.1', 'proyek.test', '192.168.50.118'])) {
+            if (in_array(request()->getHost(), ['www.kontakami.com', 'kontakami.com', 'localhost', '127.0.0.1', 'proyek.test', '192.168.50.118', 'kontakami.loggy.my.id'])) {
                 // Route::middleware('web')
                 //     ->group(base_path('routes/web.php'));
 
