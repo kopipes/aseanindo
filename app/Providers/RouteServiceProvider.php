@@ -35,7 +35,7 @@ class RouteServiceProvider extends ServiceProvider
                 //     ->group(base_path('routes/web.php'));
 
 
-                if (in_array(request()->getHost(), ['localhost', 'proyek.test', '192.168.50.118'])) {
+                if (in_array(request()->getHost(), ['localhost', 'proyek.test', '192.168.50.118', 'kontakami.loggy.my.id'])) {
                     Route::middleware(['api', 'force-json', 'api-guest'])
                         ->prefix('v1')
                         ->group(base_path('routes/api/api.php'));
