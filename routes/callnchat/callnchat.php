@@ -87,4 +87,4 @@ Route::get('/9uf4keeB7kefcn5Joozp/{companyId}', CallnChatConfigController::class
 Route::get('/{username}', function ($username) {
     return to_route('callnchat.index', [$username, 'contact']);
 });
-Route::get('{username}/{any}', CallnChatIndexController::class)->where('any', '.*')->name('callnchat.index');
+Route::get('{username}/{any}', CallnChatIndexController::class)->where('any', '.*')->name('callnchat.user_index');

@@ -187,5 +187,14 @@
         "description": "Learn how to choose the right contact center service for your business needs with 5 practical and efficient tips.",
         "image": "/img/blog/5-tips-memilih-contact-center-service-yang-tepat-untuk-bisnis-anda/2.webp",
         "link": "/en/blog/5-tips-for-choosing-the-right-contact-center-service-for-your-business"
+    },
+    {
+        "id": "22",
+        "title": "AI QA Scoring: Strategic Solution to Improve Tele Sales and Tele Collection Agent Quality",
+        "date": "2026-02-09",
+        "category": "Informasi",
+        "description": "AI QA Scoring helps contact centers monitor tele sales and tele collection agent performance automatically, consistently, and in real-time.",
+        "image": "/img/dashboard_ai_scoring.png",
+        "link": "/en/blog/ai-qa-scoring-strategic-solution"
     }
 ]
