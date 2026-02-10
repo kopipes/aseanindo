@@ -196,5 +196,14 @@
         "description": "AI QA Scoring helps contact centers monitor tele sales and tele collection agent performance automatically, consistently, and in real-time.",
         "image": "/img/dashboard_ai_scoring.png",
         "link": "/en/blog/ai-qa-scoring-strategic-solution"
+    },
+    {
+        "id": "23",
+        "title": "Why Tele Sales Agents Need AI QA Scoring to Increase Closing Rates",
+        "date": "2026-02-10",
+        "category": "Informasi",
+        "description": "AI QA Scoring helps contact centers monitor and improve tele sales agent performance for more consistent and measurable closing rates.",
+        "image": "/img/ai-qc-1012026.jpeg",
+        "link": "/en/blog/ai-qa-scoring-for-tele-sales-increase-closing"
     }
 ]

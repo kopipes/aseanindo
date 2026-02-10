@@ -196,5 +196,14 @@
         "description": "AI QA Scoring membantu contact center memonitor performa agent tele sales dan tele collection secara otomatis, konsisten, dan real-time.",
         "image": "/img/dashboard_ai_scoring.png",
         "link": "/blog/ai-qa-scoring-solusi-strategis"
+    },
+    {
+        "id": "23",
+        "title": "Kenapa Agent Tele Sales Perlu AI QA Scoring untuk Meningkatkan Closing",
+        "date": "2026-02-10",
+        "category": "Informasi",
+        "description": "AI QA Scoring membantu contact center memonitor dan meningkatkan performa agent tele sales agar closing lebih konsisten dan terukur.",
+        "image": "/img/ai-qc-1012026.jpeg",
+        "link": "/blog/ai-qa-scoring-untuk-agent-tele-sales"
     }
 ]
