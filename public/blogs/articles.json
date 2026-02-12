@@ -205,5 +205,14 @@
         "description": "AI QA Scoring membantu contact center memonitor dan meningkatkan performa agent tele sales agar closing lebih konsisten dan terukur.",
         "image": "/img/ai-qc-1012026.jpeg",
         "link": "/blog/ai-qa-scoring-untuk-agent-tele-sales"
+    },
+    {
+        "id": "24",
+        "title": "AI Scoring: Transformasi Contact Center dari \"Sampling Acak\" Menjadi Superpower Data 100%",
+        "date": "2026-02-12",
+        "category": "Informasi",
+        "description": "Pelajari apa itu AI Scoring dan cara kerjanya menganalisa 100% data interaksi. Ubah tim QA manual menjadi strategis dengan sinergi AI + Manusia.",
+        "image": "/img/ai-scoring-12226.jpeg",
+        "link": "/blog/ai-scoring-transformasi-contact-center"
     }
 ]

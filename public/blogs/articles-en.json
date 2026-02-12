@@ -205,5 +205,14 @@
         "description": "AI QA Scoring helps contact centers monitor and improve tele sales agent performance for more consistent and measurable closing rates.",
         "image": "/img/ai-qc-1012026.jpeg",
         "link": "/en/blog/ai-qa-scoring-for-tele-sales-increase-closing"
+    },
+    {
+        "id": "24",
+        "title": "AI Scoring: Transforming Contact Centers from \"Random Sampling\" to 100% Data Superpower",
+        "date": "2026-02-12",
+        "category": "Information",
+        "description": "Learn what AI Scoring is and how it analyzes 100% of interaction data. Transform manual QA teams into strategic assets with AI + Human synergy.",
+        "image": "/img/ai-scoring-12226.jpeg",
+        "link": "/en/blog/ai-scoring-contact-center-transformation"
     }
 ]
