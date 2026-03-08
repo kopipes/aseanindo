@@ -214,5 +214,14 @@
         "description": "Pelajari apa itu AI Scoring dan cara kerjanya menganalisa 100% data interaksi. Ubah tim QA manual menjadi strategis dengan sinergi AI + Manusia.",
         "image": "/img/ai-scoring-12226.jpeg",
         "link": "/blog/ai-scoring-transformasi-contact-center"
+    },
+    {
+        "id": "25",
+        "title": "Apa Itu CRM? Pengertian, Fungsi, Manfaat, dan Strategi CRM Modern untuk Bisnis",
+        "date": "2026-03-08",
+        "category": "Informasi",
+        "description": "CRM adalah sistem penting untuk mengelola hubungan pelanggan secara terintegrasi. Pelajari manfaat CRM, strategi omnichannel, dan peran AI QA Scoring untuk meningkatkan customer experience bersama Kontakami.",
+        "image": "/img/CRM.png",
+        "link": "/blog/crm-adalah"
     }
 ]

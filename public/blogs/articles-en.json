@@ -214,5 +214,14 @@
         "description": "Learn what AI Scoring is and how it analyzes 100% of interaction data. Transform manual QA teams into strategic assets with AI + Human synergy.",
         "image": "/img/ai-scoring-12226.jpeg",
         "link": "/en/blog/ai-scoring-contact-center-transformation"
+    },
+    {
+        "id": "25",
+        "title": "What is CRM? Definition, Functions, Benefits, and Modern CRM Strategies for Business",
+        "date": "2026-03-08",
+        "category": "Information",
+        "description": "CRM is an essential system for integrated customer relationship management. Learn the benefits of CRM, omnichannel strategies, and the role of AI QA Scoring to improve customer experience with Kontakami.",
+        "image": "/img/CRM.png",
+        "link": "/en/blog/what-is-crm"
     }
 ]
