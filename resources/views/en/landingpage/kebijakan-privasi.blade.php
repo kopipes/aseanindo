@@ -4,7 +4,7 @@
     <title>Kontakami - Privacy Policy</title>
 @endsection()
 @section('seo')
-    <meta name="description" content="Privacy Policy">
+    <meta name="description" content="Kontakami Privacy Policy">
     <link rel="canonical" href="https://kontakami.com/en/privacy-policy" />
 @endsection()
 
@@ -34,144 +34,95 @@
     <div class="flex flex-col items-center justify-center">
         <div class="py-16 mx-10 max-w-7xl font-ubuntu">
             <div class="text-left overflow-hidden">
-                <p class="mb-4"><span class="font-bold">PT. YELOW OLAHKATA APPLICATION (“KONTAKAMI” or “we”)</span> is the
-                    content owner and operator of the <b><a href="https://kontakami.com/en">https://kontakami.com</a></b>
-                    website, related sites and microsites accessed through such website and the KONTAKAMI application and
-                    any services provided therein and such other services as KONTAKAMI may make available from time to time
-                    (collectively the <span class="font-bold">"Services"</span>).</p>
+                <p class="mb-8 text-lg font-bold">KONTAKAMI PRIVACY POLICY</p>
+                <p class="mb-8">PT Aplikasi Yellow Olahkata</p>
 
-                <p class="font-bold mb-4 underline">Privacy Policy</p>
-                <p class="mb-4">We value the privacy of personal data and information, as a Customer and subscriber to the
-                    Service <span class="font-bold">("Customer", "You")</span>, and are committed to protecting your data
-                    and information. This privacy policy explains how we collect, process, use and disclose your data and
-                    information <span class="font-bold">("Privacy Policy")</span>. Any Personal Data that has been set out
-                    on this Service is reserved exclusively for the KONTAKAMI Service. This page provides you with an
-                    explanation of KONTAKAMI's policy regarding the collection, processing and disclosure of Personal Data
-                    for the KONTAKAMI Service.</p>
+                <h2 id="section-1" class="text-xl md:text-2xl font-bold mt-10 mb-4">1. INTRODUCTION AND SCOPE</h2>
+                <p class="mb-4"><span class="font-bold">1.1</span> This Privacy Policy explains how PT Aplikasi Yellow Olahkata ("KONTAKAMI", "we", "us"), as the owner and operator of the website https://kontakami.com, the KONTAKAMI application, and related services (collectively referred to as the "Platform" or the "Services", as defined in our Terms and Conditions of Service (the "Terms")), collects, uses, processes, stores, discloses, and protects personal data in connection with the Services.</p>
+                <p class="mb-4"><span class="font-bold">1.2</span> This Privacy Policy applies to our Customers, Users authorized under a Customer's Account, visitors to our website, and other parties who interact directly with KONTAKAMI in connection with the use of the Services. Personal Data of parties who interact with Customers through channels integrated with the Platform is processed by KONTAKAMI in accordance with the Customer's role, purposes, and instructions, as applicable.</p>
+                <p class="mb-4"><span class="font-bold">1.3</span> With respect to Personal Data processed through the Platform on the Customer's instructions, including end-user data received through connected channels or Third-Party Services, KONTAKAMI acts as a Personal Data Processor. The Customer is responsible for ensuring that such processing has a lawful basis and that its obligations to Data Subjects have been fulfilled in accordance with applicable laws and regulations.</p>
+                <p class="mb-4"><span class="font-bold">1.4</span> This Privacy Policy has been prepared with reference to Law No. 27 of 2022 on Personal Data Protection (the "PDP Law") and other applicable laws and regulations relating to the protection of Personal Data.</p>
 
-                <p class="mb-4">We designed this Privacy Policy to explain to you how we collect, use and share your
-                    personal information. "Personal information" means any information that can be used to personally
-                    identify you (excluding any information that has been aggregated or made anonymous) and as interpreted
-                    under the Minister of Communication and Information Technology Regulation No. 20 of 2016 on the
-                    Protection of Personal Data in Electronic Systems (hereinafter referred to as "Regulation 20/2016").</p>
+                <h2 id="section-2" class="text-xl md:text-2xl font-bold mt-10 mb-4">2. DEFINITIONS</h2>
+                <p class="mb-4"><span class="font-bold">2.1</span> "Personal Data" means any data about an individual who is identified or identifiable, either directly or indirectly, in accordance with the PDP Law.</p>
+                <p class="mb-4"><span class="font-bold">2.2</span> "Customer Information" means Personal Data and other information collected by KONTAKAMI as set out in Section 3 of this Privacy Policy.</p>
+                <p class="mb-4"><span class="font-bold">2.3</span> "Data Subject" means an individual whose Personal Data is processed.</p>
+                <p class="mb-4"><span class="font-bold">2.4</span> Other capitalized terms used in this Privacy Policy, including "Platform", "Services", "Account", "Customer Data", "Service Plan", "Subscription Period", and "Third-Party Services", have the meanings given to them in the Terms.</p>
 
-                <p class="mb-4">KONTAKAMI uses your Personal Data only for the needs of developing and improving the
-                    quality of KONTAKAMI Services or other needs that are reasonable and do not conflict with applicable
-                    laws and regulations in Indonesia. By providing this Personal Data, you agree to the collection and
-                    violation of the information contained in this Privacy Policy for KONTAKAMI Services.</p>
+                <h2 id="section-3" class="text-xl md:text-2xl font-bold mt-10 mb-4">3. INFORMATION WE COLLECT</h2>
+                <p class="mb-4"><span class="font-bold">3.1</span> Account and registration data: company name, business address, and the name, email address, and telephone number of the person in charge, as well as login credentials, provided when the Customer registers for or manages an Account.</p>
+                <p class="mb-4"><span class="font-bold">3.2</span> Billing information: billing contact details, invoice address, and payment-related information required to process Subscription fees. Full payment card or bank account details are processed and stored by our licensed payment partners and are not stored directly by KONTAKAMI.</p>
+                <p class="mb-4"><span class="font-bold">3.3</span> Customer Data: content, messages, conversations, tickets, files, notes, and other information entered, uploaded, or generated by the Customer or its Users through the use of the Platform, including data received from end users through Third-Party Services connected by the Customer (see Section 7).</p>
+                <p class="mb-4"><span class="font-bold">3.4</span> Usage and technical data: IP address, device and browser identifiers, log data, timestamps, and similar information collected automatically through cookies and similar tracking technologies when the Platform or website is accessed (see Section 10).</p>
+                <p class="mb-4"><span class="font-bold">3.5</span> Communications: records of correspondence between KONTAKAMI and the Customer, including support tickets, emails, survey responses, and feedback.</p>
+                <p class="mb-4"><span class="font-bold">3.6</span> Marketing preferences: the Customer's preferences regarding the receipt of marketing and promotional communications from KONTAKAMI and its partners.</p>
+                <p class="mb-4"><span class="font-bold">3.7</span> We collect the above information directly from the Customer, automatically through the use of the Platform and website, and, where applicable, from Third-Party Services connected by the Customer.</p>
 
-                <p class="mb-4">You understand that in order to provide the best Service for you, KONTAKAMI may integrate
-                    the Service with third-party systems, applications, or software integrated with the Service, or other
-                    products, services, or businesses owned by third parties. Given that such third-party systems,
-                    applications, or software may have different privacy policies, we advise you to read such privacy
-                    policies before using the Service integrated with third-party systems, applications, or software. You
-                    also understand that Customer Information (as defined below) that may be disclosed to such third-party
-                    partners under this Privacy Policy, once disclosed, will be beyond KONTAKAMI's control.</p>
+                <h2 id="section-4" class="text-xl md:text-2xl font-bold mt-10 mb-4">4. BASIS AND PURPOSES OF PROCESSING</h2>
+                <p class="mb-4"><span class="font-bold">4.1</span> We process Personal Data on the basis of one or more applicable grounds depending on the nature of the processing, including the performance of our relationship with the Customer, the Customer's instructions, consent where required, compliance with obligations, and/or the legitimate interests of KONTAKAMI, to the extent permitted by applicable laws and regulations.</p>
+                <p class="mb-4"><span class="font-bold">4.2</span> KONTAKAMI uses Customer Information for purposes including, among others: (a) providing, operating, maintaining, securing, and improving the Services; (b) processing registrations, Subscriptions, and billing; (c) providing customer support and responding to enquiries or complaints; (d) sending administrative, transactional, and, where permitted, marketing communications; (e) monitoring, detecting, and preventing fraud, abuse, or security incidents; (f) complying with laws, regulations, and lawful requests from competent authorities; (g) conducting analytics, product development, benchmarking, and the development and improvement of AI and automation features in accordance with Section 6; and (h) other purposes notified to the Customer at the time of collection or permitted by applicable law.</p>
 
-                <p class="mb-4">You must read this Privacy Policy before registering and using the Service. By registering
-                    and using any of our products and/or Services, you represent that you have read, understood, and agreed
-                    to the terms of this Privacy Policy.</p>
+                <h2 id="section-5" class="text-xl md:text-2xl font-bold mt-10 mb-4">5. USE OF INFORMATION TO OPERATE THE SERVICES</h2>
+                <p class="mb-4"><span class="font-bold">5.1</span> KONTAKAMI uses Customer Information to run its business and to provide, maintain, and improve the Services, including managing Accounts, enabling omnichannel and contact center functions, and providing features in accordance with the selected Service Plan.</p>
+                <p class="mb-4"><span class="font-bold">5.2</span> We may use Customer Information to communicate with the Customer regarding the Services, including receipts, service notifications, security alerts, and administrative messages, which cannot be disabled by the Customer while the Account remains active.</p>
+                <p class="mb-4"><span class="font-bold">5.3</span> We may send news, product updates, and promotional communications about KONTAKAMI and its partners; the Customer may opt out of marketing communications at any time through the mechanism provided, without affecting the Services themselves.</p>
+                <p class="mb-4"><span class="font-bold">5.4</span> We may assess and process Customer requests relating to the Services, detect and verify identity, manage participation in KONTAKAMI events or programs, and conduct internal audits, compliance reviews, and security investigations.</p>
+                <p class="mb-4"><span class="font-bold">5.5</span> We may display or provide access to Customer Information to KONTAKAMI's subsidiaries, affiliates, licensees, business partners, and service providers to the extent reasonably necessary to provide, operate, secure, maintain, or improve the Services.</p>
 
+                <h2 id="section-6" class="text-xl md:text-2xl font-bold mt-10 mb-4">6. AGGREGATED DATA AND ANONYMIZED DATA</h2>
+                <p class="mb-4"><span class="font-bold">6.1</span> KONTAKAMI may process Customer Information and/or Customer Data into aggregated or anonymized data in such a way that it cannot reasonably be used to identify the Customer or any particular individual.</p>
+                <p class="mb-4"><span class="font-bold">6.2</span> The aggregated and/or anonymized data referred to in Section 6.1 may be used by KONTAKAMI for lawful purposes, including but not limited to analytics, benchmarking, statistics, the development and improvement of products and Services, the development and improvement of artificial intelligence (AI) and automation features, case studies, or marketing, provided that such use does not identify, or enable the re-identification of, the Customer or any particular individual.</p>
+                <p class="mb-4"><span class="font-bold">6.3</span> KONTAKAMI will not use Customer Data in a form that can identify the Customer or any particular individual to train or improve KONTAKAMI's AI models, except on the basis of consent, instructions, or another lawful basis for processing in accordance with applicable laws and regulations.</p>
+                <p class="mb-4"><span class="font-bold">6.4</span> The Customer may contact KONTAKAMI with any questions or requests regarding the use of aggregated and/or anonymized data as referred to in this Section. KONTAKAMI will consider such requests having regard to the nature of the data, the needs of the Services, and applicable laws and regulations.</p>
+                <p class="mb-4"><span class="font-bold">6.5</span> Any use by KONTAKAMI of Customer Data that can still identify the Customer or any particular individual for purposes other than providing and operating the Services shall be carried out on the basis of the Customer's instructions, consent where required, or another lawful basis for processing in accordance with applicable laws and regulations.</p>
 
-                <p class="font-bold mb-4 underline">Collection and Use of Information</p>
-                <p class="mb-4">KONTAKAMI reserves the right to collect information when the Customer registers for a
-                    KONTAKAMI account, when the Customer provides information as part of the identity verification process,
-                    when a transaction is made, or when the Customer requests a digital receipt. KONTAKAMI reserves the
-                    right to collect, but is not limited to collecting the following:</p>
-                <ol class="list-decimal pl-6 mb-4">
-                    <li>General Customer data or information, such as name, email address, office address, telephone number,
-                        and date of birth;</li>
-                    <li>Identification, including identification card number;</li>
-                    <li>Contact, including office address, billing address, shipping address, email address, telephone
-                        number, data of the contact person;</li>
-                    <li>Financial information, including bank, bank account, credit card, and detailed financial
-                        information;</li>
-                    <li>Transaction details, including payment details and sales documents to and from you, and other
-                        details related to the products and services you use or purchase from us;</li>
-                    <li>Marketing and Communication preferences, including your preferences in receiving marketing materials
-                        and communications from us and our partners;</li>
-                    <li>Any Data and Information uploaded by you or any information regarding your products and services;
-                    </li>
-                    <li>Information that is attached to you when you access the Site, Application, and/or Services;</li>
-                    <li>Any specific information from your system that is logged and collected automatically by KONTAKAMI
-                        using various types of tracking technologies, such as Internet Protocol address (IP address), unique
-                        device or user ID version of the software used, system type, date, time, and details of your
-                        transactions, geo tagging (geo-location), and information from your account provided to KONTAKAMI by
-                        you;</li>
-                </ol>
-                <p class="mb-4">(All of the above types of information are hereinafter referred to as <span
-                        class="font-bold">"Customer Information"</span>).</p>
-                <p class="mb-4">We reserve the right, from time to time, to verify the personal information you provide to
-                    us, by sending a verification letter, e-mail, or requiring you to submit supporting documentation, or
-                    any other means, as requested.</p>
-                <p class="mb-4">You hereby agree that your Personal Information may be disclosed to the following parties:
-                    (a) affiliates and subsidiaries, agents and subcontractors of the Company; (b) governments, regulatory
-                    agencies, and fraud prevention agencies for the purpose of identifying, preventing, detecting or
-                    combating fraud, money laundering, or other crimes, and for other lawful purposes; (c) other entities
-                    that may be required by law or as a matter of public interest to access information for the purposes
-                    described in the following paragraphs; and (d) purchasers or prospective purchasers in connection with
-                    acquisitions. You understand and realize that such disclosures must be made and agree to waive your
-                    right to make any claim in relation thereto.</p>
+                <h2 id="section-7" class="text-xl md:text-2xl font-bold mt-10 mb-4">7. DATA FROM THIRD-PARTY PLATFORMS (INCLUDING META)</h2>
+                <p class="mb-4"><span class="font-bold">7.1</span> The Customer may connect third-party accounts, assets, channels, or services with the KONTAKAMI Platform, including but not limited to WhatsApp, Facebook, Instagram, and TikTok. By connecting such Third-Party Services, the Customer authorizes KONTAKAMI to access and process the data necessary to provide, operate, and run such integrations.</p>
+                <p class="mb-4"><span class="font-bold">7.2</span> Data that may be received through Third-Party Services may include account information, profiles, messages, conversations, metadata, contacts, and other information available through the integration and permitted by the Customer.</p>
+                <p class="mb-4"><span class="font-bold">7.3</span> KONTAKAMI processes such data solely to provide the Contact Center and Omnichannel functions of the Services, including receiving, storing, displaying, managing, assigning, monitoring, and enabling responses to conversations received through connected channels.</p>
+                <p class="mb-4"><span class="font-bold">7.4</span> The Customer is responsible for ensuring that it has the rights, authorizations, and basis necessary to connect and use Third-Party Services through the Platform. The use of Third-Party Services is also subject to the terms and policies of the relevant service providers. KONTAKAMI is not responsible for the availability, changes, policies, or actions of Third-Party Service providers.</p>
+                <p class="mb-4"><span class="font-bold">7.5</span> If an integration with a Third-Party Service is terminated, deactivated, or no longer available for technical reasons or due to the policies of the Third-Party Service provider, KONTAKAMI will cease accessing and retrieving new data from that source. Data previously received will be managed in accordance with the applicable data retention and deletion provisions.</p>
 
-                    <p class="font-bold mb-4 underline">Use of Personal Data</p>
-                    <p class="mb-4">KONTAKAMI uses information about you to provide, maintain, and improve our services and to deliver the information and support you request, including receipts, alerts, and support and administrative advertising messages.</p>
-                    <p class="mb-4">Customer Information and other information provided by you and, where relevant, for the use of, or subscription to, or purchase of our Services and/or products, including any additional information subsequently provided by you, may be used and processed by us for the following purposes:</p>
-                    <ol class="list-decimal pl-6 mb-4">
-                        <li>Running our business and assisting us in providing, maintaining, and improving the Services;</li>
-                        <li>Sending information and supporting KONTAKAMI requests, including receipts, reminders, support messages, and administrative messages;</li>
-                        <li>Sending you news and information about the Services and communicating with you regarding products, services, promotions, and the latest information offered by KONTAKAMI and its designated partners;</li>
-                        <li>Providing options regarding our use of information that suit you;</li>
-                        <li>Providing a transparent and clear explanation of how we use that information;</li>
-                        <li>Publishing or sharing aggregated information from several users and/or customers, while ensuring that neither you nor others can be identified;</li>
-                        <li>Aggregating your uploaded account data and non-personal information so that you cannot be identified, with data from other Service users to improve service quality, design promotions, or provide a way for you to compare business practices with other users;</li>
-                        <li>Obtaining and collecting Customer Information and storing Customer Information in an electronic system owned by KONTAKAMI or a third party;</li>
-                        <li>Assessing and processing your requests regarding the Services;</li>
-                        <li>Detecting and verifying your identity or background;</li>
-                        <li>Establishing communication between KONTAKAMI and the Customer;</li>
-                        <li>Processing your payment transactions related to the Services;</li>
-                        <li>Responding to questions, complaints, or comments from you;</li>
-                        <li>Managing the Customer's participation in events or programs organized by KONTAKAMI;</li>
-                        <li>Managing and analyzing Customer Information, including conducting market analysis, whether performed by KONTAKAMI or a third party;</li>
-                        <li>Displaying, announcing, and providing access to Customer Information to subsidiaries, affiliates, related companies, licensees, business partners, and/or service providers;</li>
-                        <li>Investigating and preventing fraud or other illegal activities;</li>
-                        <li>Conducting internal activities, including internal investigations, compliance, audits, and other internal security purposes;</li>
-                        <li>Other legitimate business activities of KONTAKAMI; and</li>
-                        <li>Any other purpose that will be disclosed to you in connection with the Services.</li>
-                    </ol>
+                <h2 id="section-8" class="text-xl md:text-2xl font-bold mt-10 mb-4">8. DISCLOSURE OF INFORMATION</h2>
+                <p class="mb-4"><span class="font-bold">8.1</span> We may disclose Customer Information to: (a) KONTAKAMI's affiliates, subsidiaries, employees, agents, licensees, business partners, and subcontractors, on a need-to-know basis, for purposes consistent with this Privacy Policy; (b) providers of Third-Party Services integrated with the Platform, to the extent reasonably necessary to provide and operate the Services; (c) professional advisers, including legal advisers, auditors, and financial advisers, to the extent necessary for KONTAKAMI's legitimate business interests; (d) government agencies, law enforcement authorities, courts, or regulators, where required by law, legal process, or an official government request, or where KONTAKAMI believes in good faith that disclosure is necessary to protect the rights, property, or safety of KONTAKAMI or others; (e) successor entities in connection with a merger, acquisition, financing, reorganization, or sale of all or part of KONTAKAMI's business or assets; and (f) other parties with the Customer's consent.</p>
+                <p class="mb-4"><span class="font-bold">8.2</span> KONTAKAMI does not sell Customer Information to third parties for such third parties' own independent marketing purposes.</p>
+                <p class="mb-4"><span class="font-bold">8.3</span> Where Customer Information is processed by or through Third-Party Services, such processing is subject to the terms and privacy policies of the relevant Third Party.</p>
 
-                    <p class="mb-4">KONTAKAMI may use information about you to improve, customise, and facilitate the use of our services and products to provide better services.</p>
+                <h2 id="section-9" class="text-xl md:text-2xl font-bold mt-10 mb-4">9. DATA PROCESSING AND STORAGE</h2>
+                <p class="mb-4"><span class="font-bold">9.1</span> In order to provide, operate, secure, maintain, and support the Services, KONTAKAMI may use cloud infrastructure and/or third-party service providers in accordance with the operational and technical needs of the Services.</p>
+                <p class="mb-4"><span class="font-bold">9.2</span> Personal Data is processed and stored in accordance with the configuration of the Services, the Customer's needs, applicable retention policies, and applicable laws and regulations.</p>
 
-                    <p class="font-bold mb-4 underline">Security of Personal Information</p>
-                    <p class="mb-4">KONTAKAMI ensures that the information and/or Data collected will be stored securely. KONTAKAMI retains your personal information and/or Data for as long as necessary to fulfil the purposes described in this privacy policy.</p>
-                    <p class="mb-4">We retain Customer Information, for as long as you are a customer or user of one of our products and/or services. We also retain Customer Information for a period of time after you are no longer a customer or user of any of our products and/or Services if the Customer Information is necessary for the Purpose for which the Customer Information was collected or to fulfil legal requirements.</p>
-                    <p class="mb-4">You shall be responsible for maintaining the confidentiality of your own account and password, as well as any and all applications submitted, obligations approved or entered into, and all other activities performed under such account. You agree to notify us immediately of any unauthorised use or disclosure of your account or password, any unauthorised activity under your account, or any other breach of security.</p>
-                    <p class="mb-4">We will not be liable for any loss you may incur as a result of third-party use of your account or password, whether with or without your knowledge, without any fault or negligence on our part.</p>
+                <h2 id="section-10" class="text-xl md:text-2xl font-bold mt-10 mb-4">10. COOKIES AND SIMILAR TECHNOLOGIES</h2>
+                <p class="mb-4"><span class="font-bold">10.1</span> KONTAKAMI and its service providers use cookies and similar technologies to support technical functions, security, analytics, and the improvement of the user experience.</p>
+                <p class="mb-4"><span class="font-bold">10.2</span> Cookies may be used to recognize browsers or devices, store preferences, maintain user sessions, and understand the use of the Site or Platform.</p>
+                <p class="mb-4"><span class="font-bold">10.3</span> Users may manage or disable cookies through the settings of the browser or device they use. However, disabling certain cookies may affect the functionality or user experience of the Site or Platform.</p>
 
-                    <p class="font-bold mb-4 underline">Data from Third-Party Platforms (Meta)</p>
-                    <p class="mb-4">Where a Customer connects their Meta assets, including but not limited to a Facebook Page and/or a Professional Instagram account, to the Kontakami service, Kontakami may receive, access, store, and process data provided through Meta's official Application Programming Interface (API) based on the authorisation granted by the Customer as the owner or authorised party of those assets.</p>
-                    <p class="mb-4">Data processed may include, but is not limited to:</p>
-                    <ul class="list-disc pl-6 mb-4">
-                        <li>The identity of the Facebook Page and/or Professional Instagram account, including the name and asset ID;</li>
-                        <li>The content of communications sent by end users to the Facebook Page and/or Professional Instagram account, including messages, attachments, and related metadata; and</li>
-                        <li>Sender identity in the form of a Page-Scoped ID (PSID) or other identifier provided by Meta in accordance with Meta's applicable terms and policies.</li>
-                        <li>Basic sender profile information provided by Meta in accordance with the authorised permissions, such as display name.</li>
-                    </ul>
-                    <p class="mb-4">Kontakami processes such data solely for the purpose of providing Contact Center and Omnichannel services, including but not limited to receiving, storing, displaying, managing, assigning, monitoring, and responding to conversations received through Meta platforms.</p>
-                    <p class="mb-4">Kontakami does not sell, trade, or disclose such data to third parties, except as necessary for the provision of the service, as required by applicable laws and regulations, or as described in this Privacy Policy.</p>
-                    <p class="mb-4">Customers may at any time revoke authorisation or disconnect their Meta assets through the settings in the Kontakami application or through the Business Integrations feature on the relevant Meta account. All credentials and access tokens received from Meta are stored using adequate security mechanisms, including encryption, in accordance with applicable security practices.</p>
+                <h2 id="section-11" class="text-xl md:text-2xl font-bold mt-10 mb-4">11. DATA SECURITY</h2>
+                <p class="mb-4"><span class="font-bold">11.1</span> KONTAKAMI implements reasonable technical and organizational measures to protect Personal Data against unauthorized access, use, alteration, disclosure, loss, or processing, appropriate to the nature of the Services and the associated risks.</p>
+                <p class="mb-4"><span class="font-bold">11.2</span> Although KONTAKAMI implements reasonable security measures, no method of transmission over the internet or electronic storage can be guaranteed to be completely secure. Accordingly, KONTAKAMI cannot guarantee that Personal Data will always be protected from all risks of unauthorized access, use, alteration, disclosure, loss, or processing.</p>
+                <p class="mb-4"><span class="font-bold">11.3</span> The Customer is responsible for maintaining the confidentiality of its credentials and the security of the Customer's Account, and is responsible for all activities carried out through that Account. The Customer must promptly notify KONTAKAMI upon becoming aware of or suspecting any unauthorized access. KONTAKAMI is not liable for any losses arising from unauthorized use of an Account that is not caused by the fault or negligence of KONTAKAMI.</p>
 
-                    <p class="font-bold mb-4 underline">Data Deletion</p>
-                    <p class="mb-4">A Data Subject or Customer has the right to submit a request for the deletion of personal data processed by Kontakami, including data obtained through integration with Meta platforms, in accordance with applicable laws and regulations.</p>
-                    <p class="mb-4">Data deletion requests may be submitted via email to <a href="mailto:support@kontakami.com">support@kontakami.com</a> — using the email address registered with the Kontakami service. Requests submitted by Data Subjects other than Customers must be accompanied by sufficient information to enable Kontakami to verify the identity of the requestor and trace the relevant data (for example, the account name and the page/account that was the destination of the communication).</p>
-                    <p class="mb-4">Upon receipt of a valid and verifiable request, Kontakami will review and process the request within a maximum period of 30 (thirty) calendar days, unless required to retain certain data to fulfil legal obligations, resolve disputes, enforce agreements, for audit purposes, or for other legitimate interests permitted by applicable laws and regulations.</p>
-                    <p class="mb-4">Kontakami will provide confirmation to the requestor once the data deletion process has been completed. Disconnecting an integration or revoking authorisation of a Meta asset will stop the collection and processing of new data from that asset, but will not automatically delete previously stored data. Deletion of previously stored data remains subject to the procedure set out in this section.</p>
+                <h2 id="section-12" class="text-xl md:text-2xl font-bold mt-10 mb-4">12. DATA RETENTION AND DELETION</h2>
+                <p class="mb-4"><span class="font-bold">12.1</span> Conversation recordings generated through the use of the Services are retained by KONTAKAMI for 30 (thirty) days from the date the recording is stored on the Platform.</p>
+                <p class="mb-4"><span class="font-bold">12.2</span> The Customer is responsible for downloading and saving any conversation recordings it requires during that retention period. After the 30 (thirty) day period ends, KONTAKAMI may delete such recordings from its systems and/or terminate access to such recordings.</p>
+                <p class="mb-4"><span class="font-bold">12.3</span> The retention provisions referred to in this Section may differ where longer retention is required to comply with legal obligations, resolve disputes, enforce rights and agreements, or pursuant to terms agreed with the Customer.</p>
 
-                    <p class="font-bold mb-4 underline">Applicable Law</p>
-                    <p class="mb-4">Any reference to applicable laws and regulations under this Privacy Policy shall be construed in accordance with the provisions listed under the laws and regulations of the Republic of Indonesia. All problems will be resolved by deliberation first, where the disputing parties agree to settle it at the South Jakarta District Court if within 30 (thirty) days of the deliberation there is no consensus.</p>
+                <h2 id="section-13" class="text-xl md:text-2xl font-bold mt-10 mb-4">13. CHILDREN'S DATA</h2>
+                <p class="mb-4"><span class="font-bold">13.1</span> KONTAKAMI's Services are intended for business use by Customers and Users who have the legal capacity to enter into an agreement.</p>
+                <p class="mb-4"><span class="font-bold">13.2</span> Where Personal Data of children is processed through the Services as part of the services provided to the Customer, such processing is carried out on the Customer's instructions. The Customer is responsible for ensuring that such processing has a lawful basis and complies with applicable requirements.</p>
 
-                    <p class="font-bold mb-4 underline">Changes in Privacy Policy</p>
-                    <p class="mb-4">KONTAKAMI may disclose the information it collects in cases required by applicable law. To the extent permitted by applicable law, KONTAKAMI may disclose such information at the request of law enforcement agencies or other government bodies, or where KONTAKAMI feels that such disclosure may prevent a criminal offence from occurring, or may assist an investigation in relation to the safety of the public, to protect the security or integrity of the KONTAKAMI website, or to enable KONTAKAMI to take precautions against possible losses.</p>
-                    <p class="mb-4">KONTAKAMI reserves the right to amend the privacy policy in accordance with KONTAKAMI's Terms & Conditions from time to time.</p>
+                <h2 id="section-14" class="text-xl md:text-2xl font-bold mt-10 mb-4">14. CHANGES TO THIS PRIVACY POLICY</h2>
+                <p class="mb-4"><span class="font-bold">14.1</span> KONTAKAMI may amend, update, or adjust this Privacy Policy from time to time to reflect changes to the Services, applicable legal requirements, or KONTAKAMI's data management practices.</p>
+                <p class="mb-4"><span class="font-bold">14.2</span> Material changes will be notified through the Platform, email, the KONTAKAMI website, or other means of communication that KONTAKAMI considers appropriate. The updated Privacy Policy will take effect from the date stated therein.</p>
+
+                <h2 id="section-15" class="text-xl md:text-2xl font-bold mt-10 mb-4">15. GOVERNING LAW AND DISPUTE RESOLUTION</h2>
+                <p class="mb-4"><span class="font-bold">15.1</span> This Privacy Policy is governed by and construed in accordance with the laws of the Republic of Indonesia.</p>
+                <p class="mb-4"><span class="font-bold">15.2</span> Any dispute arising out of or in connection with this Privacy Policy shall first be resolved amicably through deliberation to reach a consensus (musyawarah untuk mufakat) between the parties. If the dispute cannot be resolved amicably, it shall be settled through the South Jakarta District Court.</p>
+
+                <h2 id="section-16" class="text-xl md:text-2xl font-bold mt-10 mb-4">16. LANGUAGE</h2>
+                <p class="mb-4"><span class="font-bold">16.1</span> This Privacy Policy is made in the Indonesian language and the English language. In the event of any difference in interpretation or inconsistency between the Indonesian and English versions, the Indonesian version shall prevail and be binding.</p>
+
+                <p class="mt-10 pt-6 border-t border-gray-300 text-sm text-gray-500 italic">Last updated: 24 September 2026</p>
             </div>
         </div>
     </div>
