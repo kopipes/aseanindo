@@ -36,7 +36,7 @@
                 <p class="mb-8 text-lg font-bold">SYARAT DAN KETENTUAN LAYANAN KONTAKAMI</p>
 
                 <h2 id="pasal-1" class="text-xl md:text-2xl font-bold mt-10 mb-4">1. KETENTUAN UMUM DAN DEFINISI</h2>
-                <p class="mb-4"><span class="font-bold">1.1</span> Syarat dan Ketentuan Layanan ini ("Ketentuan") mengatur hubungan antara PT Aplikasi Yellow Olahkata ("KONTAKAMI", "Kami", atau "kami") dan pihak yang berlangganan atau menggunakan layanan KONTAKAMI ("Pelanggan", "Anda", atau "Pengguna").</p>
+                <p class="mb-4"><span class="font-bold">1.1</span> Syarat dan Ketentuan Layanan ini ("Ketentuan") mengatur hubungan antara PT. ASEANINDO KONTAKAMI SINERGIA ("KONTAKAMI", "Kami", atau "kami") dan pihak yang berlangganan atau menggunakan layanan KONTAKAMI ("Pelanggan", "Anda", atau "Pengguna").</p>
                 <p class="mb-4"><span class="font-bold">1.2</span> "Platform" berarti platform KONTAKAMI berbasis web yang dikembangkan, dioperasikan, dikelola, dan disediakan oleh KONTAKAMI melalui jaringan internet, termasuk fitur, modul, fungsi, API, dokumentasi, pembaruan, dan rilis yang disediakan dari waktu ke waktu.</p>
                 <p class="mb-4"><span class="font-bold">1.3</span> "Layanan" berarti layanan berbasis langganan yang disediakan melalui Platform, termasuk fungsi contact center, omnichannel, komunikasi, pengelolaan percakapan, tiket, dashboard, AI, integrasi, dan layanan pendukung lainnya sesuai Paket Layanan yang dipilih Pelanggan.</p>
                 <p class="mb-4"><span class="font-bold">1.4</span> "Akun" berarti akun yang dibuat untuk memungkinkan Pelanggan dan Pengguna yang diberi kewenangan mengakses Platform.</p>
