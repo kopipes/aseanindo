@@ -37,7 +37,7 @@
                 <p class="mb-8 text-lg font-bold">KONTAKAMI SERVICE TERMS AND CONDITIONS</p>
 
                 <h2 id="section-1" class="text-xl md:text-2xl font-bold mt-10 mb-4">1. GENERAL PROVISIONS AND DEFINITIONS</h2>
-                <p class="mb-4"><span class="font-bold">1.1</span> These Service Terms and Conditions ("Terms") govern the relationship between PT. ASEANINDO KONTAKAMI SINERGIA ("KONTAKAMI", "We", or "we") and any party that subscribes to or uses the KONTAKAMI services ("Customer", "You", or "User").</p>
+                <p class="mb-4"><span class="font-bold">1.1</span> These Service Terms and Conditions ("Terms") govern the relationship between PT Aplikasi Yelow Olahkata ("KONTAKAMI", "We", or "we") and any party that subscribes to or uses the KONTAKAMI services ("Customer", "You", or "User").</p>
                 <p class="mb-4"><span class="font-bold">1.2</span> "Platform" means the web-based KONTAKAMI platform developed, operated, managed, and provided by KONTAKAMI over the internet, including the features, modules, functions, APIs, documentation, updates, and releases provided from time to time.</p>
                 <p class="mb-4"><span class="font-bold">1.3</span> "Services" means the subscription-based services provided through the Platform, including contact center, omnichannel, communication, conversation management, ticketing, dashboard, AI, and integration functions, and other supporting services in accordance with the Service Package selected by the Customer.</p>
                 <p class="mb-4"><span class="font-bold">1.4</span> "Account" means an account created to enable the Customer and its authorized Users to access the Platform.</p>
